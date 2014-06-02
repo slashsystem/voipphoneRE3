@@ -26,7 +26,7 @@ jQuery(function() {
 	    	            'min': "<?php __('min9Chars')?>",
 	    	            'max': "<?php __('max15Chars')?>"             
 	    	        }
-	    	    },
+	    	    }
 	    	  };
 			
 			if (inValidate(validation)) {
@@ -163,15 +163,24 @@ jQuery(function() {
 
 			  });
 			  //called when key is pressed in textbox
-    $("#destname").keyup(function(e) {	
+    $("#destname").keydown(function(e) {
+        
       if( e.which!=8 && e.which!=0 && (e.which<48 || e.which>57) && e.which!=13)
-      {        
+      {
         $('#overlay-error2 .error .message').text("<?php __('digitsOnly') ?>");
         $('#overlay-error2').removeClass('hide');
-        return false;
-      } else {	      	
+      } else {
+          if(e.which!=8 && e.which!=13)
+          {
+              var len = $(this).val();
+              len = len.length;
+              if(len >= 15)
+              {
+                  e.preventDefault();
+              }
+          }
       		//$("input").keydown(function() {
-	          inValidate(validation, 'keyup');                    
+	          inValidate(validation, 'keydown');
 	        //});	       
       }
     });
