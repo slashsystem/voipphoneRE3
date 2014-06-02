@@ -1,0 +1,18 @@
+<td align="left" style="vertical-align: top;">
+<div id="filters" class="bna-DisclosurePanel bna-DisclosurePanel-open">
+<div class="form-title">
+<h5>Filter</h5>
+<img class="collapseButton" src="images/clear.gif" aria-hidden="false" title="Einklappen">
+</div>
+<table class="bna-FilterPanel content" cellspacing="0" cellpadding="0" aria-hidden="false">
+<tbody>
+<tr>
+<td align="left" style="vertical-align: top;">
+</tr>
+<tr>
+<td align="left" style="vertical-align: top;">
+</tr>
+</tbody>
+</table>
+</div>
+</td>

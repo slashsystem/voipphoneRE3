@@ -1,0 +1,260 @@
+<?php
+#-----------------------------------------------------------------#
+# $Rev:: 22            $:  Revision of last commit                #
+#-----------------------------------------------------------------#
+
+
+// file: /app/views/locations/index.ctp
+?>
+	<div class="block top">
+	<br>
+	
+	
+	    <?php
+	
+		echo $form->create('Station',array('url'=>'/stations/index/'.$cust_id,'id'=>'filters')); 
+		
+		// check $locations variable exists and is not empty
+				
+		
+		 #if(isset($stations) && !empty($stations)) :
+		 if(isset($stations)) :
+		 
+		 //Handling the location dropdown selection
+		 
+		 if(isset($_POST['location']))
+		 {
+		  $location_val=$_POST['location'];
+		 }
+		 else
+		 {
+		   if(isset($curr_loc) && $curr_loc !=0)
+		   {
+		    $location_val=$curr_loc;
+		   }
+		   else
+		   {
+		    $location_val=0;
+		   }
+		 }
+		 	 
+		?>
+	
+		<div id="" class="table-content">
+
+		<!--Insert tables-->
+			<!-- CBM
+			<div class="button-right">
+				<a href="#" id="st_profile_photo"   name="validate" value="validate" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __('Upload MOH File') ?></a>
+			</div>
+
+			<div class="button-right">
+               		         <a href="javascript:void(null)"  onclick="javascript:submi_form('filters');" name="data[filter]" value="filter" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __("filter");?></a>
+                         </div>
+                         <div class="button-left">
+				<?php //echo $html->link( __("reset", true),  array('controller'=> 'stations', 'action'=>'index', $cust_id,1),array('onmouseover'=>'javascript:hoverButtonLeft(this);','onmouseout'=>'javascript:outButtonLeft(this);')); ?>
+                         </div>
+
+
+			-->
+		    <table cellspacing="0" class="phonekey">
+		    	
+		    	<thead>
+		        	<tr class="table-top">
+		        		<td class="table-column table-left-ohne" style="width:20px;">&nbsp;</td>
+		            	<th class="table-column" style="width: 85px" ><span><?php __("Number");?></span></th>
+                        <th class="table-column" style="width:160px;"><span><?php __("Location")?>&nbsp</span></th>
+                        <th class="table-column"  style="width:57px;"><span><?php __("Type")?></span></th>
+		                <th class="table-column" style="width:182px;"><span><?php  __("Port") ?></span></th>
+		                <th class="table-right-ohne">&nbsp;</th>
+		            </tr>
+				 	<tr>
+				<td class="table-column table-left-ohne">&nbsp;</td>
+		                <td><?php echo $form->input('id', array('label' => false,'type'=>'text', 'class' => 'filter-class onclick','style'=>'width:75px;')); ?></td>
+				<td>
+				<select name="location" style="width:156px;"  onchange="javascript:submi_form('filters');">
+				<option value="0"><?php __("No Location") ?></option>
+				<?php foreach($locations_ids  as $eachlocation){?>
+					<option value="<?php echo $eachlocation[@Location][@id];?>" <?php echo ($location_val==$eachlocation[@Location][@id]) ? 'selected':''?> ><?php echo $eachlocation[@Location][@zip]." , ".$eachlocation[@Location][@name]." , ".$eachlocation[@Location][@address];?></option>
+				<?php }?>
+				</select>
+				</td>
+		        <td>
+				    <?php 
+				    echo $form->input('type', array('label' => false,'style'=>'width:54px;','onchange'=>'javascript:submi_form("filters")', 'options'=>
+					array(''=>'',
+					'CICM'=>'CICM',
+				    'ANLG'=>'ANLG'))); 
+					?><input type="submit" style="display:none"/>
+				</td>
+		        <td><?php echo $form->input('port', array('label' => false,'type'=>'text','class' => 'filter-class onclick','style'=>'width:172px;')); ?></td>
+		        <td class="table-right-ohne">&nbsp;</td>
+		        </tr>
+		
+		        </thead>
+		    </table>
+			<div class="block" style="margin: 0px;">
+				
+				<div class="button-right">
+					<?php //echo $this->Html->link('Export Csv',array('controller'=>'customer','action'=>'export'),array('onmouseover'=>'hoverButtonRight(this)','escape'=>false));?>
+					<?php echo $html->link( __("Export Csv", true),  array('controller'=> 'stations', 'action'=>'export'),array('onmouseover'=>'hoverButtonRight(this);','onmouseout'=>'javascript:outButtonRight(this);')); ?>
+					
+				</div>
+				<div class="button-right">
+               		         	<a href="javascript:void(null)"  onclick="javascript:submi_form('filters');" name="data[filter]" value="filter" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __("filter");?></a>
+                         	</div>
+                         	<div class="button-left">
+					<?php echo $html->link( __("reset", true),  array('controller'=> 'stations', 'action'=>'index', $cust_id,1),array('onmouseover'=>'javascript:hoverButtonLeft(this);','onmouseout'=>'javascript:outButtonLeft(this);')); ?>
+                         	</div>
+			</div>
+
+				<?php echo $this->element('pagination/top'); ?>
+
+
+			<table class="table-content phonekey">
+		    <!--<table cellspacing="0" class="phonekey">-->
+		    	<?php //echo  (isset($filter_sort) && in_array('sort:id',$filter_sort) && in_array('direction:asc',$filter_sort)) ? 'sortlink_asc':'ggggg'; print_r($filter_sort);die();?>
+		    	<thead>
+		        	<tr class="table-top">
+		        	<th class="table-column table-left-ohne" style="width:20px;">&nbsp;</th>
+		            	<th class="table-column <?php if(in_array('sort:id',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:id',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?>" style="width:85px; text-align: left;"><?php echo $paginator->sort(__("Number",true), 'id', $filter_options);?></th>
+				<th class="table-column" style="width:110px; text-align: left; padding: 2px 0px 0px 2px;"><?php echo  __("Display Name") ?></th>				
+				<th class="table-column" style="text-align: left; padding: 2px 0px 0px 2px;"><?php echo  __("Exp") ?></th>				
+				<th class="table-column" style="text-align: left; padding: 2px 0px 0px 2px;"><?php echo  __("Type") ?></th>				
+				<!-- CBM removed sort
+                        	<th class="table-column <?php if(in_array('sort:extensions',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:extensions',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?>" style="text-align: left;"><?php echo $paginator->sort(__("Exp",true), 'extensions', $filter_options);?></th>
+                        	<th class="table-column <?php if(in_array('sort:type',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:type',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?>" style="text-align: left;"><?php echo $paginator->sort(__("Type",true), 'type', $filter_options);?></th>
+				-->
+                        <th class="table-column <?php if(in_array('sort:port',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:port',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?>" style="width:180px; text-align: left;"><?php echo $paginator->sort(__("Port",true), 'port', $filter_options);?></th>
+		                <th class="table-right-ohne">&nbsp;</th>
+		            </tr>
+		
+		        </thead>
+		        <tbody>
+		        	<?php
+					// initialise a counter for striping the table
+					$count = 0;
+							
+					// loop through and display format
+					foreach($stations as $stations):
+						// stripes the table by adding a class to every other row
+						$class = ( ($count % 2) ? " class='altrow'": '' );
+						// increment count
+						$count++;
+					?>
+		            <tr onmouseover="hoverRow(this,true);" onmouseout="hoverRow(this,false);">
+		           		 <td class="table-left">&nbsp;</td>
+		            	<td style='width: 85px; text-align: right;'><?php echo $html->link($stations['Station']['id'],array('action'=>'edit', $stations['Station']['id']));?></td>
+		            	<td style='width: 85px;'><?php echo $html->link($stations['Feature']['primary_value'],array('action'=>'edit', $stations['Station']['id']));?></td>
+		            	<td style='width: 45px; text-align: right;'><?php echo $html->link($stations['Station']['extensions'],array('action'=>'edit', $stations['Station']['id']));?></td>
+		            	<td style='width: 55px;'><?php echo $html->link($stations['Station']['type'],array('action'=>'edit', $stations['Station']['id']));?></td>
+		                </td>
+		            	<td style='width: 180px;'><?php echo $html->link($stations['Station']['port'],array('action'=>'edit', $stations['Station']['id']));?></td>
+		                <td class="table-right-ohne">&nbsp;</td>
+		            </tr>
+		            <?php endforeach; ?>
+		        </tbody>
+		    </table>
+
+
+		<!--end Insert tables-->
+
+	
+	
+	        </div>
+	<?php
+	echo $this->element('pagination/bottom');
+
+
+		else:
+			echo 'There are 0 stations that match your criteria';
+		endif;
+		?>
+	 
+		<div class="button-left">
+        		<?php if($userpermission==Configure::read('access_id'))
+			{
+				echo $html->link( __('Back',true),  array('controller'=> 'customers', 'action'=>'index'),array('onmouseover'=>'javascript:hoverButtonLeft(this);','onmouseout'=>'javascript:outButtonLeft(this);'));
+		
+			}
+			?>
+       		</div>
+	</div>
+	</form>
+</div>	
+<!--right hand side starts from here-->
+<!--<div class="fl" style="color:#11AAFF;width:150px;padding-top:10px;">-->
+<div id="related-content">
+	<div class="box start link">
+	<a href="http://www.swisscom.ch/grossunternehmen" target="_blank">
+		<?php __('Home Swisscom') ?>
+	</a>
+	</div>
+	<div class="box">
+		<h3><?php __('Music on Hold File') ?></h3>
+                <p>
+                <?php __('It is possible to upload a custom music on hold file which will be made active immediately. To use this function click on the upload MoH button in the main section.') ?>
+                 </p>
+			<div class="button-right">
+				<a href="#" id="st_profile_photo"   name="validate" value="validate" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __('Upload MOH File') ?></a>
+			</div>
+       </div>
+	<?php if($userpermission==Configure::read('access_id'))
+        {
+	?>
+
+	<div class="box info">
+		<h3><?php __('Internal User') ?></h3>
+                <p>
+                <?php __("Customer view:");  ?>
+		</p>
+		<p><?php echo $selected_customer; ?></p>
+       </div>
+	<?php } ?>
+		
+	
+	<div class="hide" style="display:none;">
+		
+		<div id="upload_photo" align="left" class="phone" style="padding-left:2px;" >
+			<h1><?php  __("File Upload")?></h1>
+			<hr>
+			<!-- <div style="clear:both;height:70px">&nbsp;</div> -->
+			<div style="clear:both;">&nbsp;</div>
+			<form id="form" action="<?php echo Configure::read('base_url');?>stations/upload" enctype="multipart/form-data" target="upload_iframe" method="POST">
+			<!-- <div id="upload_status" style="color:red;width:400px;height: 38px; text-align:left"></div> -->
+			<div id="upload_status" style="color:red;height: 38px; text-align:left"></div>
+				<div class="clear_both_il"></div>
+			<div id="cont_cont_phone">
+				<div class="fl label_container_np" style="padding-top:5px;padding-right:5px;">
+					<?php __('Select File') ?>
+					<input type="hidden" id="customerID" value="<?php echo $SELECTED_CUSTOMER_NAME?>" name="customerID"/>
+				</div>
+				<div class="fl text_container">
+					<input style="height:24px;" type="file" name="file" id="file">
+						
+				</div>
+			</div>
+			<div class="clear_both_il"></div>
+			<div class="row_separator" id="cont_cont_phone">
+				<div class="fl label_container_np">
+					&nbsp;
+				</div>
+			<div class="cb"></div>
+		
+			<div style="clear:both;height:95px"><br><?php __('moh_limit') ?><br><?php __('moh_license') ?></div>
+			<div style="clear:both;height:45px">&nbsp;</div>
+			<!-- <div class="fl text_container" style="height: 30px; width:456px;"> -->
+				<div class="block">
+					<div class="button-right" style="vertical-align: bottom" id="upload_button">
+						<a href="javascript:void(null);" id="upload_student_photo" name="validate" value="Upload" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __('Upload') ?></a>
+					</div>
+				
+				</div>
+			<!-- </div> -->
+		</div>
+	</form>
+</div>
+</div>
+<iframe name="upload_iframe" style="width: 400px; height: 100px; display: none;"></iframe>
+</div>
+<!--ight hand side  ends here-->

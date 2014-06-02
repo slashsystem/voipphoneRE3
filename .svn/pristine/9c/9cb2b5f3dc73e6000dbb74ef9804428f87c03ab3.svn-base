@@ -1,0 +1,857 @@
+<script>
+jQuery(function() {
+
+	$('.choosen').select2();
+	//$('.choosen').css("width", "60px");
+
+	jQuery(document).ready(function(){
+
+
+		$("#uftype").change(function(){	   
+			  var t=$("#uftype").val();
+			  if(t=="BLF")
+			  {		
+				  document.getElementById('blfobservers').style.display='block';
+				  document.getElementById('blfval').style.display='block';
+				  document.getElementById('audval').style.display='none';
+				  $("#StationAUDNUMBER").addClass('hide');
+			  }
+			  else{
+				  document.getElementById('blfobservers').style.display='none';
+				  document.getElementById('blfval').style.display='none';
+				  document.getElementById('audval').style.display='block';
+				  $("#StationAUDNUMBER").removeClass('hide');
+		     }
+	});	
+    });
+});
+	$(document).keypress(function(e) {
+		if (e.which == 13) {
+			$("a#button").trigger('click');
+			return false;
+		//alert("dfdf");
+		}
+	});
+
+	validation = {
+    	    // Specify the validation rules
+    	    'rules': {                     
+    	        'StationLABEL':{
+    	            'max': '10',
+    	        } ,
+    	        'StationAUDNUMBER':{
+    	            'min': '1',
+    	            'max': '30',
+    	        }  
+                                  
+    	    },                  
+    	    // Specify the validation error messages
+    	    'messages': {  
+    	        'StationLABEL': {
+    	             'max': "<?php __('max10Chars')?>",
+    	         },
+    	         'StationAUDNUMBER': {
+    	             'min': "<?php __('min1Chars')?>",
+    	             'max': "<?php __('max30Chars')?>",
+    	         }
+    	         
+    	    },
+    	  };
+	function submitForm(){
+
+		
+	    	  if (inValidate(validation)) {
+	    		  
+	    	    //return false;
+	    	  } else {
+
+  	  
+		  			$('.ufForm').attr('action',base_url+'features/updateUF/<?php echo $stationkey_id;
+					  ?>');
+		  						$('.black_overlay').css('display','block');
+		  						$('.ufForm').attr('method','POST');
+				                  $.ajax({
+	                                  type: "POST",
+	                                  async : false,
+	                                  dataType: 'json',
+	                                  url: $('.ufForm').attr('action'),
+	                                  data: $('.ufForm').serialize(),
+	                                  success: function(result){
+	  								alert("chk");
+	                                  }
+				                  });
+				                //jQuery('#cboxClose').click();
+				  			  location.reload();
+	    	  }
+}//end submitForm
+
+
+
+
+
+
+//window.open ("<?php echo Configure::read('base_url'); ?>/dns/selectdns/station_id:443073311&type=singleLogic",
+//"selectdns","menubar=1,resizable=1,scrollbar=yes,width=350,height=250");
+
+
+	
+	/*function selectdns(val){
+	
+		var loc = $('.locaname').val();
+		
+		window.open ('<?php echo Configure::read('base_url'); ?>dns/selectdns/station_id:'+val+'/locname:'+loc+'&type=singleLogic&page=ufedit','selectdns','menubar=1,resizable=1,scrollbars=yes, toolbar=no, menubar=no,width=350,height=450');
+	}*/
+
+	
+      
+
+
+
+function chngbkcolor(obj) {
+	  $(document).ready(function() {
+		  $('#button').attr("class", "showhighlight_buttonleft");
+		  $('#updateufedit').removeAttr("class");
+		  $('#button').removeAttr("onmouseover");
+		   $('#button').removeAttr("onmouseout");
+		  $('#updateufedit').removeAttr("class");
+		  $('#updateufedit').attr("class", "button-right-hover");
+
+	  });
+
+	//called when key is pressed in textbox
+	    $("input.numeric_check").keypress(function(e) {	
+	      if( e.which!=8 && e.which!=0 && (e.which<48 || e.which>57) && e.which!=13)
+	      {        
+	        $('#overlay-error .error .message').text("<?php __('digitsOnly') ?>");
+	        $('#overlay-error').removeClass('hide');
+	        return false;
+	      } else {
+	      	
+	      		//$("input").keydown(function() {
+		          inValidate(validation, 'keyup');                    
+		        //});		
+	      	
+	       
+	      }
+	    });
+}
+
+
+        
+</script>
+					  
+					  
+					  
+<script>
+function dispselectdns(val){	
+	if(val=='dispdns') {			
+			$("#seldns").slideToggle("slow");
+	}	
+}
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    $('.selectdnsCheckbox').click(function() {
+        var p = $(this).val();
+        jQuery('input[type="checkbox"]').each(function() {
+            if ($(this).val() == p)
+            {
+                $(this).prop('checked', true);				
+            }
+            else {
+                $(this).prop('checked', false);
+            }
+					$('#dnsbutton').attr("class", "showhighlight_buttonleft");
+					$('#updatedns').removeAttr("class");
+                    $('#updatedns').attr("class", "button-right-hover");
+					$('#dnsbutton2').attr("class", "showhighlight_buttonleft");
+					$('#updatedns2').removeAttr("class");
+                    $('#updatedns2').attr("class", "button-right-hover");
+        });
+    });
+});
+    var dnid = '<?php echo $referred_from; ?>';
+    jQuery(document).ready(function() {
+        /** code to select all filteres records : start **/
+        $('.reset').click(function() {
+            var checkboxes = $(this).closest('form').find(':checkbox');
+            checkboxes.removeAttr('checked');
+        });
+        /** code to select all filteres records : ends **/
+        $('#removeChecked').on("click", function() {
+            var count = 0;
+            $('form input[type="search"]').each(function() {
+                if ($(this).val() != "") {
+                    count++;
+                }
+            });
+            if (count > 0) {
+                var checkboxes = $("table.dataTable tr:visible").find(':checkbox');
+                checkboxes.removeAttr('checked');
+            }
+        });
+
+        $('.selectdnsCheckbox').click(function() {
+            var checkboxes = $(this).closest('form').find(':checkbox:checked');
+            //checkboxes.removeAttr('checked');
+            //$(this).attr('checked', 'checked');
+        });
+    });
+
+    /* function to create group*/
+    function create_group() {
+        var numCheckedCheckbox = 0;
+        var identifier = 0;
+        jQuery('input[type="checkbox"]').each(function() {
+            if ($(this).is(':checked')) {
+                numCheckedCheckbox++;
+                identifier = $(this).val();
+            }
+        });
+
+        if (numCheckedCheckbox == 0) {
+            alert('Please choose at least one Identifier!');
+            return false;
+        }
+
+        if (numCheckedCheckbox > 1) {
+            alert('Please choose only one Identifier!');
+            return false;
+        }
+
+        var customer_id = jQuery('#GroupGroupcustomerId').val();
+        var grouptype = jQuery('#GroupGrouptype').val();
+
+        var TargetURL = "<?php echo Configure::read('base_url'); ?>groups/add_group/";
+        jQuery.post(TargetURL, {'customer_id': customer_id, 'identifier': identifier, 'grouptype': grouptype}, function(data) {
+            window.location.href = '<?php echo Configure::read('base_url'); ?>groups/edit/group_id:' + data;
+        });
+
+
+    }
+    /* End function to create group*/
+
+ 
+    function create_station() {
+
+        var checkboxes = $('form').find(':checkbox:checked');
+        DN_id = checkboxes.val();
+        $('.filtersForm').attr('action', base_url + 'stations/create/port_id:<?php echo $portId; ?>/station_id:' + DN_id);
+        $('.black_overlay').css('display', 'block');
+        //alert("kk");
+        //setTimeout(function(){
+        $.ajax({
+            type: "POST",
+            async: false,
+            dataType: 'html',
+            url: $('.filtersForm').attr('action'),
+            data: $('.filtersForm').serialize(),
+            success: function(data) {
+                if (data) {
+                    /* DN_id = '02@'+DN_id; //alert(DN_id);
+                     var emptyTdCount = 1; 	var flag ="";	
+                     jQuery('.black_overlay').removeAttr('style');
+                     jQuery('.black_overlay').attr("style","display:none");
+                     //  alert("DN Added Successfully!");
+                     jQuery('.fancybox-close').click();
+                     */
+
+                    window.location.href = base_url + "stations/editstation/" + data;
+                    return false;
+                } else {
+                    alert("Some error occurred, Try again!");
+                    jQuery('.black_overlay').removeAttr('style');
+                    jQuery('.black_overlay').attr("style", "display:none");
+                }
+            }
+        });
+        //},0);
+        setTimeout(function() {
+            $('.fancybox-overlay').trigger('click');
+        }, 200);
+
+        //window.location.reload();
+        return false;
+
+    }
+
+
+    $(document).ready(function() {
+
+        paginationStyle();
+        $('.pager a').click(function() {
+            paginationStyle();
+
+        });
+
+
+
+        function paginationStyle() {
+            setTimeout(function() {
+
+                $(".tablesorter-filter").keypress(function() {
+                    paginationStyle();
+                });
+			    $(".tablesorter-filter").change(function() {
+                    paginationStyle();
+                });
+
+                //$("table").removeClass('table-striped');
+                //$("table").removeClass('tablesorter-bootstrap');
+
+                var pageDisplay = $(".pagedisplay").text();
+                temp = pageDisplay.split(" -");
+                //console.log(temp);
+				page2 = temp[1].split("/");
+				page3=page2[1].split("(");
+				var showrecord = page3[0];
+
+                left = temp[0] / 10;
+                box = left;
+                if (temp[0] % 10 > 0) {
+                    box = parseInt(left) + 1;
+                }
+                if (typeof temp[1] == 'undefined') {
+                    return false;
+                }
+
+                right = temp[1].split("/ ");
+                rightKey = right[1].split(" ");
+
+                right = rightKey[0] / 10;
+                if (rightKey[0] % 10 > 0) {
+                    totalPage = parseInt(right) + 1;
+                }
+				$('.slectdnscountdisplay').html(showrecord);
+
+                $(".pagedisplay").text('');
+                var newStyle = "<input type='text' name='currpage' value='" + box + "' style='width:25px;text-align:center;float: inherit;' maxlength='3' class='GoOnTargetPage'>";
+                newStyle += "<span style='font-weight:bold'> Of " + totalPage + "</span>";
+                $(".pagedisplay").html(newStyle);
+
+                $('.GoOnTargetPage').keyup(function() {
+                    //console.log($(this).val());
+                    $("input[type='text']").keypress(function(e) {
+                        if (e.which == 13) {
+
+                            $('.pagenum').val($(this).val()).trigger('change');
+                            paginationStyle();
+                            //return false;
+                        }
+
+                    });
+
+                });
+
+            }, 100);
+        }//
+
+
+    });
+
+
+
+    jQuery(function() {
+        jQuery.extend(jQuery.tablesorter.themes.bootstrap, {
+            // these classes are added to the table. To see other table classes available,
+            // look here: http://twitter.github.com/bootstrap/base-css.html#tables
+            table: 'table table-bordered',
+            header: 'bootstrap-header', // give the header a gradient background
+            footerRow: '',
+            footerCells: '',
+            icons: '', // add "icon-white" to make them white; this icon class is added to the <i> in the header
+            sortNone: 'bootstrap-icon-unsorted',
+            sortAsc: 'icon-chevron-up',
+            sortDesc: 'icon-chevron-down',
+            active: '', // applied when column is sorted
+            hover: '', // use custom css here - bootstrap class may not override it
+            filterRow: '', // filter row class
+            even: '', // odd row zebra striping
+            odd: '', // even row zebra striping
+            emptyTo: 'none',
+            link: '<a href="#">{page}</a>',
+            sPaginationType: "full_numbers",
+            sDom: "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
+        });
+
+        // call the tablesorter plugin and apply the uitheme widget
+        jQuery(".dataTable").tablesorter({
+            // this will apply the bootstrap theme if "uitheme" widget is included
+            // the widgetOptions.uitheme is no longer required to be set
+            theme: "bootstrap",
+            widthFixed: true,
+            headerTemplate: '{content} {icon}', // new in v2.7. Needed to add the bootstrap icon!
+
+            // widget code contained in the jquery.tablesorter.widgets.js file
+            // use the zebra stripe widget if you plan on hiding any rows (filter widget)
+            widgets: ["uitheme", "filter", "zebra"],
+            widgetOptions: {
+                // using the default zebra striping class name, so it actually isn't included in the theme variable above
+                // this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
+                zebra: ["even", "odd"],
+                // reset filters button
+                filter_reset: ".reset"
+
+                        // set the uitheme widget to use the bootstrap theme class names
+                        // this is no longer required, if theme is set
+                        // ,uitheme : "bootstrap"
+
+            },
+            headers: {
+                0: {sorter: false, filter: false},
+                1: {sorter: false, filter: false},
+				5: {sorter: false, filter: false},
+                7: {sorter: false, filter: false}
+
+            }
+        })
+                .tablesorterPager({
+                    // target the pager markup - see the HTML block below
+                    container: jQuery(".pager"),
+                    // target the pager page select dropdown - choose a page
+                    cssGoto: ".pagenum",
+                    // remove rows from the table to speed up the sort of large tables.
+                    // setting this to false, only hides the non-visible rows; needed if you plan to add/remove rows with the pager enabled.
+                    removeRows: false,
+                    // output string - default is '{page}/{totalPages}';
+                    // possible variables: {page}, {totalPages}, {filteredPages}, {startRow}, {endRow}, {filteredRows} and {totalRows}
+                    output: '{startRow} - {endRow} / {filteredRows} ({totalRows})'
+
+                });
+
+    });
+</script>
+
+<style>
+.table-menu-popup {
+    display: none;
+    float: left !important;
+    margin-left: -24px;
+    margin-top: 5px;
+    padding: 0;
+    position: absolute;
+}
+.table-menu-popup li {
+  
+    position: relative;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 13px;
+}
+.fancybox-inner{
+	height: auto !important;
+    overflow: auto;
+   
+}
+.table-menu-popup li a, .table-menu-popup li a:link, .table-menu-popup li a:visited, .table-menu-popup li a:active {
+    border-left: 0px solid #001155!important;
+    border-right: 0px solid #001155!important;
+    border-top: 0px solid #001155!important;
+    padding: 2px 0 0 25px;
+}
+	
+</style>
+
+
+
+<?php 
+#DIWAKARTEST
+#if(!empty($features)){
+	if(1){
+	echo $form->create('Station', array(
+                                'action' => 'updateUFFeatures',
+                                'id' => 'Station',
+                                'class' => 'ufForm',
+                                'type' => 'POST',
+								
+));
+
+	#echo $form->create(null, array('id' => 'featureEditForm', 'url' => '/features/update/'.$features[0]['Feature']['id'],'accept-charset'=>'ISO-8859-1'));
+	?>	
+	
+	
+	<div class="black_overlay" style="height: 100%; width: 100%; display: none;">
+				<div id="black_overlay_loading">
+				<img alt="" src="../../img/assets/ajax-loader.gif">
+				</div>
+	</div>
+	<div class="block top">
+	
+	<div style="height: 55px">
+		<div id="overlay-error" class="notification first hide" style="width: 100%" >
+		
+			<div class="error">
+				<div class="message">
+					
+				</div>
+			</div>
+		</div>
+		</div>
+
+<?php if((isset($success)) && $success){?>
+	
+		<div class="notification first" style="width: 534px" >
+		
+			<div class="ok">
+				<div class="message">
+					<?php echo $success;?>
+				</div>
+			</div>
+		</div>
+		
+	<?php }elseif(isset($error) && $error){?>
+		<div class="notification first" >
+		
+			<div class="error">
+				<div class="message">
+					<?php 
+						#echo $error;
+						
+						if($error=='xml_not_respond')
+							__("Xml Server is not responding");
+						else
+							__("There was a problem in applying the changes.");
+					?>
+				</div>
+			</div>
+		</div>
+		
+	<?php }
+		else
+		{
+			echo '<br>';
+		}
+		?>
+				<!--CBM ADDED BUTTONS TO TOP-->
+			    <fieldset>
+                       <fieldset style="display:none;">
+                        <input type="hidden" name="_method" value="PUT" />
+                        </fieldset>
+         </div>
+
+           </fieldset>
+	<div id="newEdit">
+				
+			<?php if (array_key_exists('AUD', $features))
+			{
+				$displayAUD = 'block';
+				$classAUD = '';
+				$selected = 'AUD';
+				$displayBLF = 'none';
+			}
+			else {
+				$displayBLF = 'block';
+				$classAUD = 'hide';
+				$selected = 'BLF';
+				$displayAUD = 'none';
+			}
+			
+			$d = explode("@",$stationkey_id);
+			
+			?><h4><?php echo __('featureEdit')?> <?php echo $d[0]; ?> &nbsp;<?php echo __('onStation')?> <?php echo $d[1]; ?><?php echo __('featureEditEnd')?>
+			
+		<div class='demonstrations'>
+            <div  ><a href="javascript:;"  style="cursor:pointer;" onMouseOver="Tip('<?php echo __('close_window') ?>', BALLOON, true, ABOVE, false)" onMouseOut="UnTip()" onclick="window.location.reload(); UnTip();">X</a></div>
+	        <div ><a href="javascript:;"  style="cursor:pointer" onMouseOver="Tip('<b><?php echo __('ufEdit_helpTitle') ?></b><br/><?php echo __('ufEdit_hlepText') ?>', BALLOON, true, ABOVE, false)" onMouseOut="UnTip()" >?</a></div>		
+ 		</div>
+		  </h4>
+			<div class="form-body">
+				<div class="form-box">
+				  <div class="form-left table-menu">
+				    <div style="width:100px; float: left" ><?php echo __('ufLabel')?></div>
+					<div class="table-menu-popup" style="z-index: 1">
+                    	<ul>
+						  <li  style="width: 13px!important; margin-top: 0px!important;"><a href="javascript:;" onclick="Tip('<?php echo __('ufLabel_desc') ?>', BALLOON, true, ABOVE, false)" onMouseOut="UnTip()">...</a></li>
+						</ul>
+                    </div>
+					<?php echo	$form->input('LABEL', array('label' => false,'onkeyup'=>'chngbkcolor(this)','value'=>$features[$selected]['label'],'style'=>'width:100px;'));	?>		
+				  </div>
+				</div>
+				<div class="form-box">
+				<div class="form-right table-menu">
+					<div style="width:100px; float: left"><?php echo __('ufType')?></div>
+					<div class="table-menu-popup" style="z-index: 1">
+                    	<ul>
+						  <li  style="width: 13px!important; margin-top: 0px!important;"><a href="javascript:;" onclick="Tip('<?php echo __('ufType_desc') ?>', BALLOON, true, ABOVE, false)" onMouseOut="UnTip()">...</a></li>
+						</ul>
+                    </div>
+					<?php 
+					   #echo $form->input('Language', array('value'=>$features['LANG']['primary_value'], 'style'=>'width:200px;','onchange'=>"javascript:submi_form('filters');"));
+					   #echo $form->input('Language', array('label' => false,'type'=>'select', 'options'=>$languageOptions, 'default'=>'somegroup',array('style'=>'width:200px;'),'style'=>'width:20px;'));
+					   echo $form->input('TYPE', array('label' => false,'type'=>'select', 'options'=>array('AUD'=>'__(AUD)','BLF'=>'__(BLF)'), 'id'=>'uftype', 'default'=>$selected,array('style'=>'width:200px;'),'style'=>'width:100px;', 'onkeyup'=>'chngbkcolor(this)')); 
+					 ?>
+		
+					</div>
+				<div>
+				<div class="form-box">
+				<div id='audval' class="form-left table-menu" style="display:<?php echo $displayAUD ?>">
+					<div style="width:100px; float: left"><?php echo __('numberAud')?></div>
+					<div class="table-menu-popup" style="z-index: 1">
+                    	<ul>
+						  <li  style="width: 13px!important; margin-top: 0px!important;"><a href="javascript:;" onclick="Tip('<?php echo __('numberAud_desc') ?>', BALLOON, true, ABOVE, false)" onMouseOut="UnTip()">...</a></li>
+						</ul>
+                    </div>
+					<?php 
+					echo	$form->input('AUD_NUMBER', array('label' => false,'value'=>$features['AUD']['primary_value'],'style'=>'width:100px;','class'=>'numeric_check '.$classAUD,'onkeyup'=>'chngbkcolor(this)'));	?>		
+					
+				</div>
+				<div id='blfval' class="form-left" style="display:<?php echo $displayBLF ?>">
+					<div style="width:100px; float: left"><?php echo __('numberBlf')?></div>
+					<?php 
+					
+					#echo '<div style="width:100px; float: left">NUMBER_BLF</div>';
+					#echo '<div style="width:100px; float: left">NUMBER_BLF</div>'; ?>
+					<div style="width:100px; float: left; "><a href="javascript:;" onclick="dispselectdns('dispdns');"><?php echo __('Select DNS'); ?></a></div>
+					
+					<?php
+					#echo	$form->input('NUMBER', array('label' => false,'value'=>$features['BLF']['primary_value'],'style'=>'width:100px;'));	
+
+					echo $form->input('BLF_NUMBER', array('label' => false,'type'=>'select', 'options'=>$blfDns, 'id'=>'uftype', 'default'=>$features['BLF']['primary_value'],'onkeyup'=>'chngbkcolor(this)', 'class' => 'choosen', 'style'=>'width:100px;','onchange'=>'chngbkcolor(this)')); ?>
+					#echo $form->input('BLF_NUMBER', array('label' => false,'type'=>'select', 'options'=>$blfDns, 'id'=>'uftype', 'default'=>$features['BLF']['primary_value'],'onkeyup'=>'chngbkcolor(this)', 'class' => 'choosen', 'style'=>'width:100px;','target'=>'myframe')); ?>
+					
+				<br/><br/>	
+				
+			 <div id="seldns"  style="display: none; width: 450px!important; height: 200px; overflow: scroll;">
+				
+			 <div  class="table-content" >
+             <div class="pager form-horizontal" style="margin:0 !important; float:left" >
+               <?php echo __("totalEntries")?> <span class="slectdnscountdisplay"></span> <?php echo __("entriesPerPage"); ?>: 
+                    <select class="pagesize input-mini" title="Select page size" style="float: right; width: 50px;">
+                        <option selected="selected" value="10">10</option>
+                        <option selected="selected" value="25">25</option>
+                        <option selected="selected" value="50">50</option>
+                        <option selected="selected" value="100">100</option>
+                    </select>
+                </div>
+
+                <table id="exampleSingle" class="phonekey dataTable">
+                    <thead> 	
+                        <tr class="table-top">
+                            <th class="table-column table-left-ohne">&nbsp;</th>
+
+                                <th class="table-column filter-false"><?php
+                                    // echo $html->link( __("+", true),'javascript:void(0);',array('id'=>'addChecked','class'=>'addChecked'));
+                                    // echo $html->link( __("-", true),'javascript:void(0);',array('id'=>'removeChecked','class'=>'removeChecked'));
+                                    ?></th> 
+                                <th class="table-column <?php
+                                if (in_array('sort:id', $filter_sort) && in_array('direction:asc', $filter_sort))
+                                    echo 'sortlink_asc';elseif ((in_array('sort:id', $filter_sort) && in_array('direction:desc', $filter_sort)))
+                                    echo 'sortlink_desc';
+                                else
+                                    echo 'sortlink';
+                                ?> "style="width:80px;text-align: left;">
+                                    <?php echo __("Id", true); ?></th>
+                                   <!-- data-value="<?php #echo $dnsLocationName; ?>"-->
+
+                                <th data-value="<?php echo $dnsLocationName; ?>"  class="table-column filter-select filter-exact <?php
+                                if (in_array('sort:location_id', $filter_sort) && in_array('direction:asc', $filter_sort))
+                                    echo 'sortlink_asc';elseif ((in_array('sort:location_id', $filter_sort) && in_array('direction:desc', $filter_sort)))
+                                    echo 'sortlink_desc';
+                                else
+                                    echo 'sortlink';
+                                ?> "style="width:80px;text-align: left;" ><?php echo __("Location", true); ?></th>	    	
+
+                                <!--<th class="table-column <?php
+                                if (in_array('sort:function', $filter_sort) && in_array('direction:asc', $filter_sort))
+                                    echo 'sortlink_asc';elseif ((in_array('sort:function', $filter_sort) && in_array('direction:desc', $filter_sort)))
+                                    echo 'sortlink_desc';
+                                else
+                                    echo 'sortlink';
+                                ?> "style="width:102px;text-align: left;"><?php echo __("Function", true); ?></th>-->
+
+                                <th class="table-column <?php
+                                if (in_array('sort:display', $filter_sort) && in_array('direction:asc', $filter_sort))
+                                    echo 'sortlink_asc';elseif ((in_array('sort:display', $filter_sort) && in_array('direction:desc', $filter_sort)))
+                                    echo 'sortlink_desc';
+                                else
+                                    echo 'sortlink';
+                                ?> "style="width:135px!important;text-align: left;"><?php echo __("DISPLAYNAME", true); ?></th>
+
+                               <!-- <th class="table-column <?php
+                                if (in_array('sort:emer', $filter_sort) && in_array('direction:asc', $filter_sort))
+                                    echo 'sortlink_asc';elseif ((in_array('sort:emer', $filter_sort) && in_array('direction:desc', $filter_sort)))
+                                    echo 'sortlink_desc';
+                                else
+                                    echo 'sortlink';
+                                ?> "style="width:102px;text-align: left;"><?php echo __("Emergency", true); ?></th>-->
+
+                            
+                            <th class="table-right-ohne">&nbsp;</th> 
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    <th colspan="8" class="pager form-horizontal">
+                        <span><a class="first" href="javascript:;">&lt;&lt;</a></span>
+                        <span><a class="prev" href="javascript:;">&lt;</a></span>
+                        <span>Page</span>
+                        <select class="pagenum input-mini hide" title="Select page number"></select>
+                        <span class="pagedisplay"></span> <!-- this can be any element, including an input -->			
+                        <span><a class="next" href="javascript:;">&gt; </a></span>
+                        <span><a class="last" href="javascript:;">&gt;&gt; </a></span>
+
+                    </th>
+                   
+                    </tfoot>
+                    <tbody>
+
+                        <?php
+                        
+                                // initialise a counter for striping the table
+                                $count = 0;
+                                // loop through and display format
+                                foreach ($results as $dn){								
+                                    // stripes the table by adding a class to every other row
+                                    $class = ( ($count % 2) ? " class='altrow'" : '' );
+                                    // increment count
+                                    $count++;
+                                    ?>
+
+                                <tr onmouseover="hoverRow(this, true);" onmouseout="hoverRow(this, false);
+                                    " >
+                                    <td class="table-left">&nbsp;</td>
+                                  <td>     
+									<input type="checkbox" class="selectdnsCheckbox <?php echo $dn['Dns']['id'] ?>" name="selectdnsCheckbox[]" value="<?php echo $dn['Dns']['id'] ?>" />
+                                </td>
+                                <td ><?php echo $dn['Dns']['id']; ?></td>
+                                <td  style="width:50px;">
+                                    <?php echo $dn['Location']['name']; ?>
+                                </td>
+                              
+                                <td  style="width:135px!important;"><?php echo $dn['Dns']['display']; ?></td>
+
+                                <td class="table-right-ohne">&nbsp;</td>
+							</tr>
+                                <?php                      
+                        }                    
+                    ?>                    	    				
+                    </tbody>
+                </table>              
+            </div>
+				
+			</div>		
+				
+				
+				
+				
+				</div>			
+					
+				
+												
+						<input type="hidden" id="locaname" name="locaname" class="locaname" value="<?php echo $result['Location']['name']; ?>">
+						
+					<?php	} ?>
+
+							
+					     
+				<div class="form-right" style="margin-top: -50px;"  >
+					<p><?php echo __('ufEdit_blurb')?></p>
+				</div>
+				<div class="form-right" style="margin-top: -55px;" >
+					<p><?php echo __('ufEdit_blurb')?>
+					</div>
+			   
+			   <div class="form-left"><p></p></div>
+			   <div class="form-right">
+			   <div class="button-right-disabled" id="updateStation">
+                   <a href="javascript:submitForm()"  onclick="" name="submitForm" value="submitForm" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __("Submit"); ?></a>
+               </div> 
+				
+			   <div class="button-right" id="updateufedit">
+                   <a id="button" href="javascript:submitForm()"  onclick="javascript:submitForm()" name="submitForm" value="submitForm" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __("Submit"); ?></a>
+               </div>
+			   </div>
+			
+			
+		
+		<div id="blfobservers" class="form-box" style="display:<?php echo $displayBLF ?>">
+			<p><?php __('observerSection'); ?></p>
+			
+			 <div id="" class="table-content main_table_content">
+	        <table class="phonekey" id="NOTdragdroptbl" width="70%">
+			<thead>
+			<tr class="table-top">
+				 
+				 <th class="table-column" style="width:20px;">&nbsp;</th>
+				 <th class="table-column" style="width:100px;">&nbsp;&nbsp;<?php echo __('Station')?>&nbsp;&nbsp;</th>
+				 
+				 <th class="table-column" style="width:150px;">&nbsp;&nbsp;<?php echo __('Key')?>&nbsp;&nbsp;</th>
+				 
+				 <th class="table-column" >&nbsp;&nbsp;<?php __('Options'); ?>&nbsp;&nbsp;</th>
+
+		
+			 </tr>
+			</thead>
+			<tbody>
+	        	<?php
+
+				foreach($observers as $observer):
+				?>
+				
+				
+	            <tr onmouseover="hoverRow(this,true);" onmouseout="hoverRow(this,false);">
+	             	<td class="table-left">&nbsp;</td>
+	               		<td><?php echo $observer['Stationkey']['station_id']?></td>
+	               		<td><?php echo $observer['Stationkey']['keynumber'];?></td>
+
+	               		<td class="table-right-ohne" style="background: url(<?php
+    			    	echo $this->webroot;
+						?>/images/assets/icons/9px/198_angleright_06_cmyk.gif) no-repeat 3px 5px;border-style: none;" onmouseout="this.className='table-right';" id="<?php
+     				   	echo $sta_id;
+						?>tdlast">
+						<div class="table-menu">
+         			   <div class="table-menu-popup" style="z-index: 1">
+        			    <ul>
+
+							<li class="last log">
+								<?php echo $html->link( __("view", true),array('controller'=>'stations','action'=>'editstation',$observer['Stationkey']['station_id'])); ?>
+												
+							</li>
+			
+						</div>
+						</div>
+					</td>
+		    			
+	           		
+	            	</tr>
+	            		<?php 
+	            		
+	            	endforeach; ?>
+	        		</tbody>
+
+	    </table>
+			
+			
+			
+			
+			
+			
+			
+			
+		</div> 
+		
+		
+		
+		</div>
+		
+			
+			
+	</div>
+	
+	
+	<?php }?>
+			    	
+		
+
+        
+
+   <!--ight hand side  ends here-->
+
+
+</form>

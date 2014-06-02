@@ -1,0 +1,357 @@
+
+<?php echo $javascript->link('front');?>
+<div class="block top">
+<?php if((isset($success)) && $success){?>
+	
+		<div class="notification first" style="width: 534px" >
+		
+			<div class="ok">
+				<div class="message">
+					<?php echo __($success, true);?>
+				</div>
+			</div>
+		</div>
+		
+	<?php }elseif(isset($error) && $error){?>
+		<div class="notification first" >
+		
+			<div class="error">
+				<div class="message">
+					<?php 
+						#echo $error;
+							__("There was a problem in applying the changes.");
+					?>
+				</div>
+			</div>
+		</div>
+		
+
+		<?php 
+		
+		}
+		
+		
+	    #For pagination reasons to handle sort and filter
+	    $paginator->options(array('url' => $this->passedArgs));
+	    
+	    echo $form->create('Scenario',array('action'=>'index/customer_id:'.$SELECTED_CUSTOMER_NAME,'id'=>'filters','type'=>'GET'));
+	   // echo $form->input('Scenario.customer_id', array('type'=>'hidden','value'=>$SELECTED_CUSTOMER_NAME)); 
+	    ?>
+	
+		
+		<div class="cb">
+		
+		
+			<!--CBM START HERE -->
+			<div id="" class="table-content">
+				<table class="table-content phonekey">
+					<thead>
+						<tr class="table-top">
+							<th class="table-column table-left-ohne" style="width:20px;">&nbsp;</th>
+							<th  class="table-column"style="width:102px;text-align: left;"><?php __("Scenario Name");?></th>
+							<th  class="table-column"style="width:102px;text-align: left;"><?php __("Status");?></th>
+							<th  class="table-column"style="width:283px;text-align: left;"></th>
+							<th class="table-right-ohne">&nbsp;</th>
+						</tr>
+						
+						<tr>
+							<td class="table-column table-left-ohne">&nbsp;</td>
+							<td><?php echo $form->input('name', array('label' => false, 'type'=>'text','class' => 'filter-class onclick','style'=>'width:92px;', 'value'=>(isset($this->params['named']['name'])?$this->params['named']['name']:(isset($this->params['url']['name'])?$this->params['url']['name']:'')))); ?></td>
+							<td><?php echo $form->select('status',$stateList,(isset($this->params['named']['status'])?$this->params['named']['status']:(isset($this->params['url']['status'])?$this->params['url']['status']:'')),array('style'=>'width:98px;','onchange'=>"javascript:submi_form('filters');")); ?></td>
+
+							<td></td>
+							<td class="table-right-ohne">&nbsp;</td>
+						</tr>
+					</thead>
+					<tbody>
+				</table>
+			</div>
+	
+			<div class="block" style="margin: 0px;">
+				<div class="button-right">
+					<?php echo $html->link( __("Export Csv", true),  array('controller'=> 'scenarios', 'action'=>'export'),array('onmouseover'=>'hoverButtonRight(this);','onmouseout'=>'javascript:outButtonRight(this);')); ?>
+				</div>
+				<div class="button-right">
+					<?php echo $html->link( __("Refresh", true),  array('controller'=> 'scenarios', 'action'=>'index','customer_id:'.$SELECTED_CUSTOMER_NAME),array('onmouseover'=>'hoverButtonRight(this);','onmouseout'=>'javascript:outButtonRight(this);')); ?>		
+				</div>
+				
+							
+				<div class="button-right">
+					<a href="javascript:void(null)"  onclick="javascript:submi_form('filters');" name="data[filter]" value="filter" onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)"><?php __("filter");?></a>
+				</div>
+
+				
+           </div>
+                        
+        <?php
+		if(count($scenarios) < 1)
+	    {
+	    	echo '<p>' . __('There are currently no scenarios in the database', true) . '</p>';
+	    }
+	    else
+	    {
+	    ?>
+
+				<!--CBM END HERE -->
+			<!--CBM START HERE -->
+			<div id="" class="table-content">
+				<?php echo $this->element('pagination/top'); ?>
+				<table class="table-content phonekey">
+					<thead>
+						<tr class="table-top">
+							<th class="table-column table-left-ohne" style="width:20px;">&nbsp;</th>
+						
+							<th class="table-column <?php if(in_array('sort:Name',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:Name',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:102px;text-align: left;"><?php echo $paginator->sort(__("scenario_name",true), 'Name', $filter_options);?></th>
+							<th class="table-column <?php if(in_array('sort:status',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:status',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:102px;text-align: left;"><?php echo $paginator->sort(__("Status",true), 'status', $filter_options);?></th>
+		
+							<th  class="table-column" style="width:283px;text-align: left;"><?php echo __("Schedule",true)?></th>
+							<th class="table-right-ohne">&nbsp;</th>
+						</tr>
+						
+					</thead>
+					<tbody>
+
+				<!--CBM END HERE -->
+				
+	        		<?php	
+	        		
+
+	
+					// initialise a counter for striping the table
+					$count = 0;
+					//pr($scenarios);
+					// loop through and display format
+					foreach ($scenarios as $scenario)
+					:
+					// stripes the table by adding a class to every other row
+					$class = (($count % 2) ? " class='altrow'" : '');
+					// increment count
+					$count++;
+					?>
+		        		<tr>
+		        		<td class="table-left">&nbsp;</td>
+                    		<td>
+                    		<table class="table-content phonekey" style="border-style: none;">
+                    		<tr>
+                    			<?php if (($scenario['Scenario']['ActScript'] == '')|| ($scenario['Scenario']['DeActScript'] == ''))
+                    			{
+                    			?> 
+
+                    			
+                    			
+                    			<td style="border-style: none;"><?php echo $scenario['Scenario']['Name']?></td>
+                    	   		<td class="table-right" style="border-style: none; background: url(images/assets/icons/9px/198_angleright_06_cmyk.gif) no-repeat 2px 2px;"   onmouseover="this.className='table-right-over';" onmouseout="this.className='table-right';">
+                    			<div class="table-menu">
+                    			<div class="table-menu-popup">
+                    			<ul>
+                    				<li class="last cancel">
+                    				
+                    				<?php echo $html->link(__("Invalid Scenario Definition", true),"javascript:void(0)", array("onclick"=>"return test_pop('".$scenario['Scenario']['id']."','create','".$SELECTED_CUSTOMER_NAME."','','');"));?>
+                    				</li>
+                    			</ul>
+                    			</div>
+             					</div>
+							</td>
+                    			<?php
+                    			}
+                    			else
+                    			{
+                    			?>	
+                    			
+                    			<td style="border-style: none;"><?php 
+                    			
+                    			#echo $html->link($scenario['Scenario']['Name'], '',array('onclick'=>'javascript:return scriptview(\''.$scenario['Scenario']['id'].'\');','title'=>$scenario['Scenario']['id'])) ;
+                    			echo $scenario['Scenario']['Name']?></td>
+                    	   		<!-- <td  class="table-right" style="border-style: none;" onmouseover="this.className='table-right-over';" onmouseout="this.className='table-right';"> -->
+                    			<td class="table-right" style="background: url(<?php echo $this->webroot; ?>/images/assets/icons/9px/198_angleright_06_cmyk.gif) no-repeat 3px 5px;border-style: none;"   onmouseover="this.className='table-right-over';" onmouseout="this.className='table-right';">
+                    			<div class="table-menu">
+                    			<div class="table-menu-popup" style="z-index: 1">
+                    				<ul>
+                    				<li class="schedule">
+									<?php echo $html->link(__("Create Schedule", true),"javascript:void(0)", array("onclick"=>"return test_pop('".$scenario['Scenario']['id']."','create','".$SELECTED_CUSTOMER_NAME."','','');"));?>
+									<!-- <a href="javascript:;" onclick="return test_pop();">Pankaj Saini</a> -->
+									<?php //echo $html->link("Create Schedule","javascript:void(0)",array('class'=>'ajax_page','rel'=>$scenario['Scenario']['id'],'rel1'=>$SELECTED_CUSTOMER_NAME));?>
+									</li>
+									<li class="activate">
+									<?php echo $html->link(__("Activate", true),"javascript:void(0)", array("onclick"=>"return test_pop('".$scenario['Scenario']['id']."','create','".$SELECTED_CUSTOMER_NAME."','0','activate');"));?>
+									<?php //echo $html->link("Activate","javascript:void(0)",array('class'=>'ajax_page','rel'=>$scenario['Scenario']['id'],'act'=>'activate','rel1'=>$SELECTED_CUSTOMER_NAME));?>
+									</li>
+									<li class="deactivate">
+									<?php echo $html->link(__("Deactivate", true),"javascript:void(0)", array("onclick"=>"return test_pop('".$scenario['Scenario']['id']."','create','".$SELECTED_CUSTOMER_NAME."','0','deactivate');"));?>
+									<?php //echo $html->link("Deactivate","javascript:void(0)",array('class'=>'ajax_page','rel'=>$scenario['Scenario']['id'],'act'=>'deactivate','rel1'=>$SELECTED_CUSTOMER_NAME));?>
+									</li>
+									<li class="script">
+									<?php echo $html->link(__("View Script", true),"javascript:void(0)", array('onclick'=>'return scriptview(\''.$scenario['Scenario']['id'].'\');','title'=>$scenario['Scenario']['id'])) ;
+									  ?>
+									
+									</li>
+									<li class="last log">
+									<?php echo $html->link(__('Log', true),  array('controller'=> 'logs', 'action'=>'viewlog', 'customer_id:'.$SELECTED_CUSTOMER_NAME . '&' . 'affected_obj=' . $scenario['Scenario']['Name']));?>
+									
+									</li>
+                    				</ul>
+                    			</div>
+             					</div>
+							</td>
+							
+							<?php
+                    			}
+                    			?>
+							</tr>
+							</table>
+							</td>
+					<td>
+
+                    <?php 
+                    if ($scenario['Scenario']['status'] == 'FAILURE')
+                    {
+                   	?>
+                      	<div class="info info-error" style="z-index: inherit">
+                       	<a href="">&nbsp;</a>
+                       	<div class="flyout">
+                       	<h4><?php echo __('Warning')?></h4>
+                       	<div class="flyout-text error" >
+                            <?php echo __('There were problems with the last performed activation script. Please retry the last operation and if unsuccessful contact the support organization.')?>
+                      	</div>
+                      	<div class="flyout-footer"></div>
+                       	</div>
+                    	</div>
+                       	<?php
+                       	echo __($scenario['Scenario']['status'], true);
+                   }
+                   else
+                   {
+                        echo __($scenario['Scenario']['status'], true); 
+                   }
+                   ?>
+                    </td>     	
+					<td>
+						
+						<table>
+							<?php 
+						
+							#$execRecords = count($scenario['Execution'])-1;
+							$executions = $scenario['Execution'];
+							
+							#print_r($executions);
+							$dates = array();
+							foreach ($executions as $key => $row)
+							{
+								$dates[$key] = $row['targetDate'];
+								
+							}
+							array_multisort($dates, SORT_ASC,  $executions);
+							#print_r($executions);
+							foreach ($executions as $execution)
+							{
+								#if($scenario['Execution'][$iterateExecutions]['status'] =='SCHEDULED' || 
+								#$scenario['Execution'][$iterateExecutions]['status'] =='INPROGRESS' || 
+								#($scenario['Execution'][$iterateExecutions]['status'] == 'WARNING' &&  (strtotime("-5 day") <= strtotime($scenario['Execution'][$iterateExecutions]['modified'])))) 
+								
+								if($execution['status'] =='SCHEDULED' || 
+								$execution['status'] =='INPROGRESS') 
+								{
+								
+									?>
+									<tr  onmouseover="hoverRow(this,true);" onmouseout="hoverRow(this,false);">
+									<td style="width:70px;text-align: left;">
+									<?php echo $execution['operation']; ?>
+									</td>
+									<td style="width:100px;text-align: left;">
+									<?php echo date('d.m.Y H:i',strtotime($execution['targetDate']));?>
+									</td>
+								
+									<?php if($execution['status'] =='WARNING')
+									{
+										echo '<td style="width:70px;text-align: left; color: red;">';
+									 	echo $execution['status'];
+									 	echo '</td>';
+									}
+									else
+									{
+										echo '<td style="width:70px;text-align: left;">';
+									 	echo $execution['status'];
+									 	echo '</td>';
+									}
+								 	?>
+								
+									<?php
+									if($execution['status'] =='SCHEDULED')
+									{
+									?>
+										<td class="table-right"  onmouseover="this.className='table-right-over';" onmouseout="this.className='table-right';" style="background: url(<?php echo $this->webroot ?>/images/assets/icons/9px/198_angleright_06_cmyk.gif) no-repeat 2px 2px;" >
+                     					<div class="table-menu">
+                       					<div class="table-menu-popup">
+										<ul>
+                           					<li class="last cancel">
+											<?php 
+											if($execution['status']=='SCHEDULED'){
+											echo $html->link(__("Delete Schedule", true),"javascript:void(0)", array("onclick"=>"return test_pop('".$scenario['Scenario']['id']."','delete','".$SELECTED_CUSTOMER_NAME."','".$execution['id']."','');"));
+											}else{?>
+											<a onclick="alert('You can not delete a schedule after it has been applied.')" href="javascript:void(0)">Delete Schedule</a>
+											<?php } ?>
+											</li>
+                        	 			</ul>
+                      					</div>
+                      					</div>
+                   						</td>
+                   						<?php
+									}
+									else
+									{
+										
+										#echo '<td class="table-right-ohne">' . $html->link('Log',  array('controller'=> 'logs', 'action'=>'viewlog', 'customer_id:'.$SELECTED_CUSTOMER_NAME . '&' . 'affected_obj=' . $scenario['Scenario']['id'])) . '</td>';
+										?>
+										<td class="table-right-ohne" style="background: url(<?php echo $this->webroot ?>/images/assets/icons/9px/148_arrowdown_02_cmyk.gif) no-repeat 3px 5px;border-style: none;"></td>
+										<?php
+									}
+									?>
+									</tr>
+									<?php
+							
+								}
+							
+							}
+							?>
+						
+						</table>
+					</td>
+					
+		            		<td class="table-right-ohne">&nbsp;</td>
+		        		</tr>
+	        		<?php endforeach; ?>
+				
+				
+				
+					</tbody>
+				</table>
+			</div>
+	<?php 
+    $form->end();
+	echo $this->element('pagination/bottom');
+	} 
+	?>
+	</div>
+
+	<?php //echo $this->element('pagination/newpaging');?>
+	</div>
+</div>
+                <!--right hand side starts from here-->
+<div id="related-content">
+	<div class="box start link">
+        	<a href="http://www.swisscom.ch/<?php __('corporatebusiness') ?>" target="_blank">
+			<?php __('Home Swisscom') ?>
+                 </a>
+         </div>
+         
+
+         <div class="box info">
+        	 <h3><?php __('Scenario List') ?></h3>
+                 <p>
+                  <?php __('This page allows gate users to list all onDemand scenarios. ') ?>
+                 </p>
+        </div>
+
+</div>
+<!--ight hand side  ends here-->
+	

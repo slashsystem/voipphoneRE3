@@ -1,0 +1,746 @@
+<?php 
+echo $javascript->link('/js/jquery.fancybox');
+?>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+</script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+  jQuery(".space_check").keyup(function () {
+		var valueToFind = jQuery(this).val(); 
+		var CurrId = jQuery(this).attr('id'); 
+		jQuery('#save'+CurrId).show(); 
+		jQuery('#trick'+CurrId).hide();
+		//jQuery(this).closest("tr").find("a").html(valueToFind);
+    });	
+
+	
+  $('input').keypress(function(event){
+        var keycode = (event.which ? event.which : event.keyCode);
+        if(keycode == '13'){
+		var dest_code = jQuery(this).val();
+		var attrid = jQuery(this).attr('id');
+		var attrlen = attrid.length;
+		var Odsentryid = attrid.substring(1,attrlen); 
+			var TargetURL = "<?php echo Configure::read('base_url');?>scenarios/updateviajQuery/dest_id:"+Odsentryid+"/dest_code:"+dest_code;
+			jQuery.post( TargetURL, function( data ) {				
+			});	
+        }
+        event.stopPropagation();
+    });
+	
+});
+
+function saveOdsentry(id){
+ 
+ var senddata = []; 
+ jQuery('.saveOdsentry').each(function() { 			
+		var style = jQuery(this).attr('style'); 	
+
+		if(style =='display: inline;'){
+			var rowid = jQuery(this).attr('id'); 
+			var attrlen = rowid.length;
+			var Orowid = rowid.substring(4,attrlen); 
+			var Dbrowid = rowid.substring(5,attrlen);
+			var Destval =jQuery('#'+Orowid).val();	
+
+			senddata.push(Dbrowid+"="+Destval);
+		}
+		
+	 });
+	 
+	 var serialized = senddata.join("&") 
+
+	var TargetURL = "<?php echo Configure::read('base_url');?>scenarios/updatemultipleodsentry/";
+			jQuery.post( TargetURL, { odsdata: serialized}, function( data ) {
+				window.location.reload();
+			});		 
+	 
+	
+  /* 
+	var dest_code = jQuery('#'+id).val();
+	var attrlen = id.length;
+	var Odsentryid = id.substring(1,attrlen); 
+
+	var TargetURL = "<?php echo Configure::read('base_url');?>scenarios/updateviajQuery/dest_id:"+Odsentryid+"/dest_code:"+dest_code;
+			jQuery.post( TargetURL, function( data ) {	
+
+			});	
+			
+	jQuery('#trickd'+Odsentryid).show();
+	jQuery('#saved'+Odsentryid).hide();			
+
+	setTimeout(function(){
+				 window.location.reload();
+			  },500);	
+	*/		  
+			  
+}
+
+function toggleAdvanceSearch(){
+	//$("#advancesearch").show
+	if(document.getElementById('advancesearch').style.display=='none'){
+		document.getElementById('advancesearch').style.display='block';
+	}else{
+		document.getElementById('advancesearch').style.display='none';
+	}
+
+}
+function toggleShowHistory(){
+	//$("#advancesearch").show
+	if(document.getElementById('showhistory').style.display=='none'){
+		document.getElementById('showhistory').style.display='block';
+	}else{
+		document.getElementById('showhistory').style.display='none';
+	}
+
+}
+</script>
+
+<style>
+.tablesorter-filter
+{
+	width:100% !important;
+}
+.space_check
+{
+	width:91%;
+	height:auto !important;
+	margin-bottom:0 !important;
+}
+.table th, .table td
+{
+	padding: 1px 6px;  /* 4px 6px;  */
+}
+.tablesorter-bootstrap .tablesorter-pager select
+{
+	width:64px;
+	margin:0 20px;
+}
+.table-top th, .table-right-ohne th
+{
+	height:35px;
+}
+#example colgroup col:nth-child(3)
+{
+	width:40% !important;
+}
+#example colgroup col:nth-child(4)
+{
+	width:30% !important;
+}
+
+
+</style>
+<script type="text/javascript">
+function deleteOdsentry(record_id,elem){
+	$.post(base_url+'odsentries/index/'+record_id,{},function(data){
+		if(data=="success"){
+		    $('#'+record_id).closest('tr').remove();
+			alert('Record is deleted successfully');
+		}
+	});
+}
+function submit_form(action){
+	//alert(action);
+	$('.filtersForm').attr('action',base_url+'odsentries/index/'+action);
+	$('.filtersForm').attr('method','POST');
+	$.ajax({
+				type: "POST",
+				async : false,
+				dataType: 'json',
+				url: $('.filtersForm').attr('action'),
+				data: $('.filtersForm').serialize(),
+				success: function(data){  //alert(data);
+					if(data.message=="updated"){
+						alert(data.affectedRows+'Record(s) updated successfully')
+					}else{
+						alert('Some error occured, Please try again');
+					} 
+				}
+	});
+
+}
+
+jQuery(function() { 
+	jQuery.extend(jQuery.tablesorter.themes.bootstrap, {
+		// these classes are added to the table. To see other table classes available,
+		// look here: http://twitter.github.com/bootstrap/base-css.html#tables	
+	});
+
+	// call the tablesorter plugin and apply the uitheme widget
+	jQuery(".dataTable").tablesorter({
+		// this will apply the bootstrap theme if "uitheme" widget is included
+		// the widgetOptions.uitheme is no longer required to be set
+		theme : "bootstrap",
+		widthFixed: true,
+		bFilter: false,
+		bInfo: false,
+		emptyTo: 'none',
+
+		headerTemplate : '{content} {icon}', // new in v2.7. Needed to add the bootstrap icon!
+
+		// widget code contained in the jquery.tablesorter.widgets.js file
+		// use the zebra stripe widget if you plan on hiding any rows (filter widget)
+		widgets : [ "uitheme", "filter", "zebra" ],
+
+		widgetOptions : {
+			// using the default zebra striping class name, so it actually isn't included in the theme variable above
+			// this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
+			zebra : ["even", "odd"],
+
+			// reset filters button
+			filter_reset : ".reset"
+
+			// set the uitheme widget to use the bootstrap theme class names
+			// this is no longer required, if theme is set
+			// ,uitheme : "bootstrap"
+		},
+		
+		headers: { 
+		0: {sorter: false,filter: false},
+		2: {sorter: 'digit'},
+		4: {sorter: false,filter: false},
+		5: {sorter: false,filter: false}
+		
+		} 
+	})
+	.tablesorterPager({
+		// target the pager markup - see the HTML block below
+		container: jQuery(".pager"),
+
+		// target the pager page select dropdown - choose a page
+		cssGoto  : ".pagenum",
+
+		// remove rows from the table to speed up the sort of large tables.
+		// setting this to false, only hides the non-visible rows; needed if you plan to add/remove rows with the pager enabled.
+		removeRows: false,
+
+		// output string - default is '{page}/{totalPages}';
+		// possible variables: {page}, {totalPages}, {filteredPages}, {startRow}, {endRow}, {filteredRows} and {totalRows}
+		output: '{startRow} - {endRow} / {filteredRows} ({totalRows})'
+
+	});
+
+     jQuery(".smallwidth").focus(function () {
+		var valueToFind = jQuery(this).val(); 
+		 if(valueToFind=='DN From' || valueToFind=='DN To'){
+			jQuery(this).val(''); 
+		 } else {
+			jQuery(this).val(valueToFind); 
+		 }
+    });
+
+     jQuery(".smallwidth").focusout(function () {
+		var valueToFind = jQuery(this).val(); 
+		 if(valueToFind=='' || valueToFind==''){
+			 var id= jQuery(this).attr('id');
+			 if(id=='min')
+			     jQuery(this).val('DN From'); 
+			 else if(id=='max')	 
+				jQuery(this).val('DN To'); 
+		 } 
+    });
+	
+	
+	jQuery("#filter_now").click(function () {	
+		var MinVal = jQuery('#rangeMinMinval').val();		
+		var MaxVal = jQuery('#rangeMaxMaxval').val();	
+	
+		if((MinVal.length <9 || MinVal.length >9) && (MaxVal.length <9 || MaxVal.length >9)){
+			alert('Filter Range From and To Must Be 9 digits!');
+			return false;
+		} else {
+		
+			if (isNaN(MinVal) || isNaN(MaxVal)){
+				alert('Filter Range must be numeric only!');
+				return false;
+			} else {		
+				jQuery("#form").submit();
+			}
+		}
+	});
+
+	jQuery("#reset_filter").click(function () {
+	
+		jQuery('#rangeMinMinval').val('');
+		
+		jQuery('#rangeMaxMaxval').val('');
+	
+		jQuery("#form").submit();
+	});
+	
+     jQuery(".deldest").click(function () {
+	    jQuery('input[type="checkbox"]:checked').each(function() { 
+			var Odsentryid = jQuery(this).val();
+	
+			var TargetURL = "<?php echo Configure::read('base_url');?>scenarios/deletedest/dest_id:"+Odsentryid;
+			
+			jQuery.post( TargetURL, function( data ) {			
+				jQuery("#firstchild"+data).parents("tr").hide();
+			});	
+
+			jQuery("#firstchild"+Odsentryid).parents("tr").hide();			
+		});		
+
+	    jQuery('input[type="checkbox"]:checked').each(function() { 
+			jQuery(this).attr("checked", false);				
+		});	
+
+	setTimeout(function(){
+		 window.location.reload();
+	  },1000);		
+    });
+
+	/*Check All / Uncheck All functionality*/
+    jQuery("#checkAll").click(function () {
+        if (jQuery("#checkAll").is(':checked')) {			
+			jQuery('input[type="checkbox"]').each(function() { 	
+				var CClass = jQuery(this).parents("tr").attr('class');	
+				if (CClass.indexOf("filtered") ==-1) { 
+					var attrid = jQuery(this).attr('id');	
+						jQuery('#'+attrid).removeAttr('class');
+						jQuery('#'+attrid).prop("checked", true);
+			  	}
+		   });
+	
+        } else {
+			jQuery('input[type="checkbox"]').each(function() {
+				jQuery(this).removeAttr("checked");
+			});
+        }
+    });
+	
+	jQuery('.dosorting').click(function(){
+			jQuery('input[type="checkbox"]').each(function() {
+				jQuery(this).removeAttr("checked");
+			});	
+	});
+	
+ });
+ 
+function saveToLog(action){
+	var comment = $('#LogAfterdate').val();
+	var scenario_id = '<?php echo $scenario_id; ?>';
+	var cust_id = '<?php echo $SELECTED_CUSTOMER; ?>';
+	$.post(base_url+"scenarios/validates/"+scenario_id,{'log_entry':action,'comment':comment,'cust_id':cust_id},function(data){ //alert(data);
+		if(data){ 
+			alert("Scenario "+action);
+			if(data=="scenario_accepted"){
+				$('#sc_state').text('5');
+			}else if(data=="scenario_rejected"){
+				$('#sc_state').text('6');
+		
+			}else if(data=="scenario_validate_requested"){
+				$('#sc_state').text('6');
+			}
+			
+			window.location.reload();
+		}
+		
+		
+	}); 
+
+ }
+
+</script>
+
+<script type="text/javascript">
+	function selectAll(x) {
+	for(var i=0,l=x.form.length; i<l; i++)
+	if(x.form[i].type == 'checkbox' && x.form[i].name != 'sAll')
+	x.form[i].checked=x.form[i].checked?false:true
+	}
+</script>
+
+<?php $scenarioStatus = Configure :: read('scenarioStatus'); ?>
+
+<!--   <div id="content"> -->
+	<h4>Scenario Details : <?php echo $odsEntryList[0]['Scenario']['Name']?></h4>
+		<form id="form" class="filtersForm" action="<?php echo Configure::read('base_url');?>scenarios/edit/scenario_id:<?php echo $scenario_id;?>" enctype="multipart/form-data" method="POST">    
+		<br>
+		<div class="form-box">
+			<div class="form-left">
+				
+			<?php 
+					echo '<div style="width:100px; float: left">' . __('Id', true). '</div>';
+					echo	$form->input('Id', array('label' => false,'value'=>$odsEntryList[0]['Scenario']['id'],'style'=>'width:150px;'));	?>		
+						
+			
+					
+			</div>
+			<div class="form-right">
+					<?php 
+					echo '<div style="width:100px; float: left">' . __('Status', true). '</div>';
+					echo	$form->input('Status', array('label' => false,'value'=>$scenarioStatus[$odsEntryList[0]['Scenario']['status']],'style'=>'width:150px;'));	?>		
+					
+			</div>
+			<div class="form-left">
+				
+			<?php 
+					echo '<div style="width:100px; float: left">' . __('Created', true). '</div>';
+					echo	$form->input('Created', array('label' => false,'value'=>$odsEntryList[0]['Scenario']['created'],'style'=>'width:150px;'));	?>		
+						
+			
+					
+			</div>
+			<div class="form-right">
+					<?php 
+					echo '<div style="width:100px; float: left">' . __('Last Updated', true). '</div>';
+					echo	$form->input('Modified', array('label' => false,'value'=>$scenarioStatus[$odsEntryList[0]['Scenario']['modified']],'style'=>'width:150px;'));	?>		
+					
+			</div>
+			
+		</div>
+		<br><br>
+	
+					
+			<!--  -->
+					<?php
+					if (($userpermission==Configure::read('access_id')) && ( $odsEntryList[0]['Scenario']['status'] == 3))
+					{?>
+					
+						<div class="form-box" style="height:120px;">
+							<div class="form-left">
+
+							<?php echo '<div style="width:100px; float: left">' . __('SCM Comment', true). '</div>';
+							echo $form->input('Log.modification_response', array('type'=>'textarea','class'=>'date-pick', 'style'=>'margin:4px 4px 5px 8px;width:350px;', 'label'=>false, 'div'=>false, 'value'=>(isset($this->passedArgs['destination'])?$this->passedArgs['destination']:'')));?>
+							</div>
+                            <div class="form-right">
+                            	<div class="button-right">
+						    		 <?php echo $html->link( __("Accept", true), 'javascript:saveToLog("accepted")'); ?>
+                                </div>
+               
+                            	<div class="button-right">
+						    		 <?php echo $html->link( __("Reject", true), 'javascript:saveToLog("rejected")'); ?>
+                                </div>
+                            </div>
+                        </div>
+                            
+                           
+					<?php }
+					elseif (($odsEntryList[0]['Scenario']['status'] == 2) || ( $odsEntryList[0]['Scenario']['status'] == 8))
+					{?>
+						
+						<div class="form-box">
+							<div class="form-left">
+							 	<div class="button-right">
+							 		<?php echo '' ?>
+							 			</div>
+							 </div>
+							 <div class="form-right">
+							 	<div class="button-right">
+										<?php echo $html->link( __("Request Validation", true), 'javascript:saveToLog("validate_request")'); ?>	
+							 
+							 	</div>
+							 </div>
+					  	</div>
+					  	
+                   <?php 
+					}
+					elseif ($odsEntryList[0]['Scenario']['status'] == 4)
+					{?>
+						<div class="form-box" style="display:block">
+							<div class="form-left">
+								<p></p>	
+							 </div>
+							 <div class="form-right">
+							 	<div class="button-right">
+										<?php echo $html->link( __("Activate", true), ''); ?>	
+							 	</div>
+							 	<div class="button-right">
+										<?php echo $html->link( __("De-activate", true), ''); ?>	
+							 	</div>
+							 </div>
+					  	</div>
+		             <?php 
+					}
+					elseif ($odsEntryList[0]['Scenario']['status'] == 1)
+					{?>
+	
+		             <?php 
+					}?>
+
+
+
+			<!--  -->
+		
+      
+       	<div style="display:block"> <h4>Manage ODS Entries</h4> </div>
+					
+					<!--   -->
+					<div style="margin:10px;">
+					<a class="maintopRelatedContentButton" id="maintopContentButton" onclick="return toggleAdvanceSearch();" href="javascript:void(0)"><?php __('Advanced Filter') ?></a>
+					</div>
+				
+			    	<?php
+			    	if (isset($advancedFlag))
+			    	{
+			    		?>	
+			    		<div class="form-box" style="display:block">
+			    		<?php
+			    	
+			    	}
+			    	else
+			    	{
+			    		?>
+			    		<div id="advancesearch" class="form-box" style="display:none">
+			    		<?php
+			    	}?>
+					
+					
+					
+						<div class="form-left">
+						<?php 
+						echo '<div style="width:100px; float: left">' . __('rangeMin', true). '</div>';
+						echo $form->input('rangeMin.minval', array( 'style'=>'margin:4px 4px 5px 8px;', 'label'=>false,'class'=>'filter_range_textbox', 'div'=>false, 'maxlength'=>'9', 'value'=>$rangeMinval));	?>		
+							
+					
+						</div>
+						<div class="form-right">
+						<?php 
+						echo '<div style="width:100px; float: left">' . __('rangeMax', true). '</div>';
+						echo $form->input('rangeMax.maxval', array( 'style'=>'margin:4px 4px 5px 8px;', 'label'=>false,'class'=>'filter_range_textbox', 'div'=>false, 'maxlength'=>'9', 'value'=>$rangeMaxval));	?>		
+					
+						</div>
+					
+							<div class="button-right" id="filter_now">
+									<a id="filter_now" href="javascript:void(0);">Filter</a>
+							</div>												
+							<div class="button-right" id="reset_filter">
+									<a id="reset_filter" href="javascript:void(0);">Clear</a>
+							</div>		
+		
+			
+					</div>
+					<!--   -->
+					
+			<div class="block" style="margin: 0px;">
+				
+				<div class="button-left">
+					<?php echo $html->link( __("Add Numbers", true),array('controller'=>'dns', 'action'=>'selectdns',"scenario_id:$scenario_id"), array('class'=> $selected['DN List']." fancybox fancybox.ajax")); ?>		
+				</div>	
+			<div class="button-right">
+					<?php echo $html->link( __("Update Selected", true),array('controller'=>'scenarios','action' => 'opendestupdateview/scenario_id:'.$scenario_id), array('class'=>"fancybox fancybox.ajax")); ?>
+				</div>	
+				<div class="button-right">
+						<a class="deldest" href="javascript:void(0);">Delete Selected</a>										
+				</div>								
+      		</div>		
+			<div class="clear"></div>
+				<ul class="search_btn_area">
+				</ul>
+				<div class="clear"></div>
+				
+				<table id="example" class="dataTable tablesorter">
+				<thead>
+				<tr class="table-top">
+				 <th class="table-column table-left-ohne">&nbsp;</th>
+				 <th class="table-column dosorting">&nbsp;&nbsp;Source&nbsp;&nbsp;</th>
+				 <th class="table-column dosorting">&nbsp;&nbsp;Dest&nbsp;&nbsp;</th>
+				 <th class="table-column filter-select filter-exact dosorting" data-placeholder="State">&nbsp;&nbsp;State&nbsp;&nbsp;</th>
+				 <th class="table-column">&nbsp;&nbsp;Action&nbsp;&nbsp;</th> 
+
+				 <th class="table-column table-right-ohne"><input type="checkbox" name="sAll" id="checkAll" class="showselect"></th>
+				 </tr>
+				</thead>
+				<tfoot>
+				<th colspan="7" class="pager form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+				    <option selected="selected" value="10">10</option>
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="20">15</option>
+					<option value="30">20</option>
+				</select>
+				<select class="pagenum input-mini" title="Select page number"></select>
+				</th>
+				</tr>
+				</tfoot>
+				 <tbody>
+				 <?php foreach ($odsEntryList as $res)  {  ?>
+
+				 <tr>
+				  <td class="table-left" id="firstchild<?php echo $res['Odsentry']['id']; ?>">&nbsp;</td>
+				 <td><?php echo $res['Odsentry']['source']; ?></td>
+			 	 <td>
+					<!--<div class="input text">-->
+					<?php echo $html->link(__($res['Odsentry']['dest'], true),'#',array('style'=>'display:none;','class'=>'getVal')); ?>
+                     <input class="space_check"  AUTOCOMPLETE=OFF id="d<?php echo $res['Odsentry']['id']; ?>" name="<?php echo $res['Odsentry']['source']; ?>" type="text" value="<?php echo trim($res['Odsentry']['dest']); ?>" size="13">
+                   <!--</div>-->
+				 </td>
+				 <td id="sc_state_medium" class="sc_state_medium<?php echo $res['Odsentry']['id']; ?>" align="center"><?php echo ($res['Odsentry']['dest']) ? 'Valid' : 'Invalid'; ?></td>
+				 <td>
+				 <?php  echo $html->link( __("", true),'javascript:deleteOdsentry('.$res['Odsentry']['source'].',this);',array('id'=>$res['Odsentry']['source'],'class'=>'deleteOdsentry')); ?>
+				 
+				 <?php  echo $html->link( __(" "),'javascript:saveOdsentry("d'.$res['Odsentry']['id'].'",this);',array('id'=>'saved'.$res['Odsentry']['id'],'class'=>'saveOdsentry')); ?>
+				 
+				<?php  echo $html->link( __("", true),'javascript:void(0);',array('id'=>'trickd'.$res['Odsentry']['id'],'class'=>'trickOdsentry')); ?>				 
+				 
+				 </td>
+
+				  <td class="table-right-ohne"> <input type="checkbox" class="odsentchk" name="a<?php echo $res['Odsentry']['id']; ?>" value="<?php echo $res['Odsentry']['id']; ?>" id="chk<?php echo $res['Odsentry']['id']; ?>" /> </td>
+				 </tr>
+				<?php } ?>
+				 </tbody>
+				 
+				</table>
+				 <?php //} ?>
+                             
+					<!-- -->
+					
+				
+					<h5 style="display:block">Scenario History <a class="maintopRelatedContentButton" id="maintopContentButton" onclick="return toggleShowHistory();" href="javascript:void(0)"><?php __('Show/Hide') ?></a></h5> 
+					
+				
+			    	<?php
+			    	if (isset($showHistory))
+			    	{
+			    		?>	
+			    		<div class="table-content" style="display:block">
+			    		<?php
+			    	
+			    	}
+			    	else
+			    	{
+			    		?>
+			    		<div id="showhistory" class="table-content" style="display:none">
+			    		<?php
+			    	}?>
+				    <table class="table-content phonekey">
+				    <thead>
+						<tr class="table-top">
+							<th class="table-column"> <?php echo __('affected_obj');?></th>
+							<th class="table-column"> <?php echo __('Created');?></th>
+							<th class="table-column"> <?php echo __('User');?></th>
+							<th class="table-column"> <?php echo __('log_entry');?></th>
+							<th class="table-column"> <?php echo __('status');?></th>
+							
+						</tr>
+						
+					</thead>
+	  			      <tbody>
+		        	<?php
+
+	
+					// loop through and display format
+					foreach($loginfo as $log):
+
+				
+					?>
+	            	<tr onmouseover="hoverRow(this,true);" onmouseout="hoverRow(this,false);">
+	             	<td> <?php echo $log['Log']['affected_obj']; ?></td>
+	                <td style="width:70px;">
+	                <?php 
+	                $formatted_date = date('d.m.Y H:i:s',strtotime($log['Log']['created']));
+	                preg_match("/^(.*) (.*)/", $formatted_date, $matches);
+					if ($matches[0]) 
+					{
+	               	 	#$datetime2line = $matches[1] . '<br>' . $matches[2];
+	               	 	echo $matches[1] ;
+	               	 	echo $matches[2] ;
+					}else{
+	                	echo $log['Log']['created'] ;
+	                }
+	                ?>
+	               </td>
+	                <td style="width:50px;">
+	                <?php echo $log['Log']['user'] ?>
+	           		</td>
+	                 <td> <?php echo $log['Log']['log_entry'] ?></td>
+	                 <td><?php echo $log['Log']['modification_status']?'Success':'Failed' ?></td>
+	          		 
+	         	  </tr>
+	         		<?php 
+					endforeach;
+					?>
+	       	 	</tbody>
+				</table>
+				    
+				  </div>
+			
+			</div>
+<div id="related-content">
+        <div class="box start link">
+                <a href="#">
+                <?php __('Home Swisscom') ?>
+                </a>
+        </div>
+        <div class="box info">
+                 <h3><?php __('Scenario Edit') ?></h3>
+                 <p>
+                  <?php __('This page is a Scenario Edit page allowing users to edit specific scenarios') ?>
+                 </p>
+        </div>
+
+                        <div class="box">
+                                <h3 class="red"><?php # __("_infoBox");?></h3>
+                                <div class="red">
+                                <?php # __('_UpdateInfo');?>
+                                </div>
+                 		<h3><?php __('Workflow') ?></h3>
+
+					<?php
+					if (($userpermission==Configure::read('access_id')) && ( $odsEntryList[0]['Scenario']['status'] == 3))
+					{?>
+					
+						<p>This Scenario has been submitted by user in order to request acceptance from SCM. After review of the scenario configuration press accept or reject to make the scenario available for deploy or reconfiguration respecively</p>
+                           
+					<?php }
+					elseif ( $odsEntryList[0]['Scenario']['status'] == 2)
+					{?>
+						<p>This Scenario is configured completely and is ready for a request  of acceptance from SCM. To make this scenario available for activation the scenario must be reviewed by SCM. Click request validaiton option.</p>
+                   			<?php 
+					}
+					elseif ( $odsEntryList[0]['Scenario']['status'] == 8)
+					{?>
+						<p>This Scenario is configured completely but has been rejected by SCM. To make this scenario available for activation the scenario must be reviewed by SCM. Update the scenario with the required changes and click request validaiton below.</p>
+                   			<?php 
+					}
+					elseif ($odsEntryList[0]['Scenario']['status'] == 4)
+					{?>
+						<p>This Scenario is configured completely and has been accepted by Swisscom. The scenario is available for activation/deactivation using the functions</p>
+		             <?php 
+					}
+					elseif ($odsEntryList[0]['Scenario']['status'] == 1)
+					{?>
+						<p>This Scenario is in Invalid state (most likely due to invalid destination numbers with some odsentries. The scenario needs to be resolved before it can be authorized by SCM and made available for activation/deactivation</p>
+	
+		             <?php 
+					}?>
+
+			</div>
+        <?php if($userpermission==Configure::read('access_id'))
+        {?>
+                <div class="box info">
+                <h3><?php __("Internal User");?></h3>
+                <p><?php __("Customer View:");?></p>
+                <p><?php echo $selected_customer; ?></p>
+
+                </div>
+        <?php } ?>
+
+                </div>				
+		</div>
+		<!--right hand side starts from here-->
+
+<!--ight hand side  ends here-->
+<script type="text/javascript">
+function toggleAdvanceSearch(){
+                //$("#advancesearch").show
+                if(document.getElementById('advancesearch').style.display=='none'){
+                        document.getElementById('advancesearch').style.display='block';
+                }else{
+                        document.getElementById('advancesearch').style.display='none';
+                }
+
+        }
+</script>

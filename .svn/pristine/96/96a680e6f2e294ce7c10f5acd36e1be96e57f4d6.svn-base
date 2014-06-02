@@ -1,0 +1,2040 @@
+2013-10-01 14:21:58 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+2013-10-01 14:21:58 Debug: AUTHENTICATION :  PHP_SELF -> /craig1/voipphoneRE3/app/webroot/index.php -> craig1
+2013-10-01 14:21:58 Debug: AUTHENTICATION :  PHP_SELF craig1 - - APPLICATION UNDEF
+2013-10-01 14:21:58 Debug: LAYOUT : APPNAME -> 
+2013-10-01 14:21:58 Debug: LEFTMENU ELEMENT :  Errors
+2014-01-14 01:27:03 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:27:03 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:27:03 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:27:03 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:27:03 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:27:03 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:27:03 Debug: App controller : Index action
+2014-01-14 01:27:03 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:27:03 Debug: App controller : End before filter  
+2014-01-14 01:27:07 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:27:07 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:27:07 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:27:07 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:27:07 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:27:07 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:27:07 Debug: App controller : Index action
+2014-01-14 01:27:07 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:27:07 Debug: App controller : End before filter  
+2014-01-14 01:27:29 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:27:29 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:27:29 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:27:29 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:27:29 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:27:29 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:27:29 Debug: App controller : Index action
+2014-01-14 01:27:29 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:27:29 Debug: App controller : End before filter  
+2014-01-14 01:27:41 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:27:41 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:27:41 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:27:41 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:27:41 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:27:41 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:27:41 Debug: App controller : Index action
+2014-01-14 01:27:41 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:27:41 Debug: App controller : End before filter  
+2014-01-14 01:30:35 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:30:35 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:30:35 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:30:35 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:30:35 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:30:35 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:30:35 Debug: App controller : Index action
+2014-01-14 01:30:35 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => index
+)
+
+2014-01-14 01:30:35 Debug: App controller : End before filter  
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: App controller : Index action
+2014-01-14 01:31:24 Debug: App controller : URL PARAMS Array
+(
+    [0] => 
+    [1] => 
+)
+
+2014-01-14 01:31:24 Debug: App controller : End before filter  
+2014-01-14 01:31:24 Debug: Customer controller : Start of Index
+2014-01-14 01:31:24 Debug: Customer controller : Setting sesion conditions : Array
+(
+    [Customer.status] => 1
+)
+
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAAAA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAAAA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAAAA
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer AAAA
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URI1EEU
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URI1EEU
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URI1EEU
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer 1EEU
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIACLS
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIACLS
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIACLS
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ACLS
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIACPH
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIACPH
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIACPH
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ACPH
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIACUT
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIACUT
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIACUT
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ACUT
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIACVE
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIACVE
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIACVE
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ACVE
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIADOV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIADOV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIADOV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ADOV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIADPS
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIADPS
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIADPS
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ADPS
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIADSV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIADSV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIADSV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ADSV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIADVV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIADVV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIADVV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ADVV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAFIV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAFIV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAFIV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer AFIV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAGSA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAGSA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAGSA
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer AGSA
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIALBG
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIALBG
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIALBG
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ALBG
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIALCH
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIALCH
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIALCH
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ALCH
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIALSV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIALSV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIALSV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ALSV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIALZV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIALZV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIALZV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ALZV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAMBT
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAMBT
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAMBT
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer AMBT
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAMVN
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAMVN
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAMVN
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer AMVN
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIANGE
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIANGE
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIANGE
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ANGE
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAPHA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAPHA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAPHA
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer APHA
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIAPIV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIAPIV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIAPIV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer APIV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIARGE
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIARGE
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIARGE
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ARGE
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIARVA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIARVA
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIARVA
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ARVA
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIASGV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIASGV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIASGV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ASGV
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:31:24 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:31:24 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:31:24 Debug: Customer controller : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:31:24 Debug: APP CONTROLLER : PAssed URIATEV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : CHECKING URIATEV
+2014-01-14 01:31:24 Debug: APP CONTROLLER : VALID URIATEV
+2014-01-14 01:31:24 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:31:24 Debug: Customer controller : counts function for customer ATEV
+2014-01-14 01:31:24 Debug: LEFTMENU ELEMENT : Phone Customer List
+2014-01-14 01:33:45 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:33:45 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:33:45 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:33:45 Debug: Customer controller : Start of before_filter
+2014-01-14 01:33:45 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:33:45 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:33:45 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:33:45 Debug: App controller : Index action
+2014-01-14 01:33:45 Debug: App controller : URL PARAMS Array
+(
+    [0] => 
+    [1] => 
+)
+
+2014-01-14 01:33:45 Debug: App controller : End before filter  
+2014-01-14 01:35:31 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:31 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:31 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:31 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:31 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:31 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:35:31 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:31 Debug: App controller : Index action
+2014-01-14 01:35:31 Debug: App controller : URL PARAMS Array
+(
+    [0] => 
+    [1] => 
+)
+
+2014-01-14 01:35:31 Debug: App controller : End before filter  
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: App controller : Index action
+2014-01-14 01:35:48 Debug: App controller : URL PARAMS Array
+(
+    [0] => 
+    [1] => 
+)
+
+2014-01-14 01:35:48 Debug: App controller : End before filter  
+2014-01-14 01:35:48 Debug: Customer controller : Start of Index
+2014-01-14 01:35:48 Debug: Customer controller : Setting sesion conditions : Array
+(
+    [Customer.status] => 1
+)
+
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAAAA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAAAA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAAAA
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer AAAA
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URI1EEU
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URI1EEU
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URI1EEU
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer 1EEU
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIACLS
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIACLS
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIACLS
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ACLS
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIACPH
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIACPH
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIACPH
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ACPH
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIACUT
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIACUT
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIACUT
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ACUT
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIACVE
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIACVE
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIACVE
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ACVE
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIADOV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIADOV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIADOV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ADOV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIADPS
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIADPS
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIADPS
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ADPS
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIADSV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIADSV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIADSV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ADSV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIADVV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIADVV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIADVV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ADVV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAFIV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAFIV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAFIV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer AFIV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAGSA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAGSA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAGSA
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer AGSA
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIALBG
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIALBG
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIALBG
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ALBG
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIALCH
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIALCH
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIALCH
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ALCH
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIALSV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIALSV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIALSV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ALSV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIALZV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIALZV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIALZV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ALZV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAMBT
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAMBT
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAMBT
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer AMBT
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAMVN
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAMVN
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAMVN
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer AMVN
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIANGE
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIANGE
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIANGE
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ANGE
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAPHA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAPHA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAPHA
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer APHA
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIAPIV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIAPIV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIAPIV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer APIV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIARGE
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIARGE
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIARGE
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ARGE
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIARVA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIARVA
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIARVA
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ARVA
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIASGV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIASGV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIASGV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ASGV
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:48 Debug: Customer controller : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:48 Debug: APP CONTROLLER : PAssed URIATEV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : CHECKING URIATEV
+2014-01-14 01:35:48 Debug: APP CONTROLLER : VALID URIATEV
+2014-01-14 01:35:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:48 Debug: Customer controller : counts function for customer ATEV
+2014-01-14 01:35:48 Debug: LEFTMENU ELEMENT : Phone Customer List
+2014-01-14 01:35:55 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:35:55 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:35:55 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:35:55 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:35:55 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:35:55 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:35:55 Debug: App controller : Index action
+2014-01-14 01:35:55 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:35:55 Debug: App controller : End before filter  
+2014-01-14 01:36:01 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:36:01 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:36:01 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:36:01 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:36:01 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:36:01 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:36:01 Debug: App controller : Index action
+2014-01-14 01:36:01 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:36:01 Debug: App controller : End before filter  
+2014-01-14 01:36:48 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:36:48 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:36:48 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:36:48 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:36:48 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:36:48 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:36:48 Debug: App controller : Index action
+2014-01-14 01:36:48 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:36:48 Debug: App controller : End before filter  
+2014-01-14 01:37:12 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:37:12 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:37:12 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:37:12 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:37:12 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:37:12 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:37:12 Debug: App controller : Index action
+2014-01-14 01:37:12 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:37:12 Debug: App controller : End before filter  
+2014-01-14 01:38:06 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:38:06 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:38:06 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:38:06 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:38:06 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:38:06 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:38:06 Debug: App controller : Index action
+2014-01-14 01:38:06 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:38:06 Debug: App controller : End before filter  
+2014-01-14 01:41:05 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:41:05 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:41:05 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:41:05 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:41:05 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:41:05 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:41:05 Debug: App controller : Index action
+2014-01-14 01:41:05 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:41:05 Debug: App controller : End before filter  
+2014-01-14 01:41:42 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:41:42 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:41:42 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:41:42 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:41:42 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:41:42 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:41:42 Debug: App controller : Index action
+2014-01-14 01:41:42 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:41:42 Debug: App controller : End before filter  
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: App controller : Index action
+2014-01-14 01:44:08 Debug: App controller : URL PARAMS Array
+(
+    [0] => 
+    [1] => 
+)
+
+2014-01-14 01:44:08 Debug: App controller : End before filter  
+2014-01-14 01:44:08 Debug: Customer controller : Start of Index
+2014-01-14 01:44:08 Debug: Customer controller : Setting sesion conditions : Array
+(
+    [Customer.status] => 1
+)
+
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAAAA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAAAA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAAAA
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer AAAA
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URI1EEU
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URI1EEU
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URI1EEU
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer 1EEU
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIACLS
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIACLS
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIACLS
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ACLS
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIACPH
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIACPH
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIACPH
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ACPH
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIACUT
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIACUT
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIACUT
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ACUT
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIACVE
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIACVE
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIACVE
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ACVE
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIADOV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIADOV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIADOV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ADOV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIADPS
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIADPS
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIADPS
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ADPS
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIADSV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIADSV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIADSV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ADSV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIADVV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIADVV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIADVV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ADVV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAFIV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAFIV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAFIV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer AFIV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAGSA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAGSA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAGSA
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer AGSA
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIALBG
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIALBG
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIALBG
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ALBG
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIALCH
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIALCH
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIALCH
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ALCH
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIALSV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIALSV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIALSV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ALSV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIALZV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIALZV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIALZV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ALZV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAMBT
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAMBT
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAMBT
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer AMBT
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAMVN
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAMVN
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAMVN
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer AMVN
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIANGE
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIANGE
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIANGE
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ANGE
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAPHA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAPHA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAPHA
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer APHA
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIAPIV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIAPIV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIAPIV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer APIV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIARGE
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIARGE
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIARGE
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ARGE
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIARVA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIARVA
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIARVA
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ARVA
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIASGV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIASGV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIASGV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ASGV
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:08 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:08 Debug: APP CONTROLLER : PAssed URIATEV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : CHECKING URIATEV
+2014-01-14 01:44:08 Debug: APP CONTROLLER : VALID URIATEV
+2014-01-14 01:44:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:08 Debug: Customer controller : counts function for customer ATEV
+2014-01-14 01:44:08 Debug: LEFTMENU ELEMENT : Phone Customer List
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: App controller : Index action
+2014-01-14 01:44:25 Debug: App controller : URL PARAMS Array
+(
+    [0] => voip
+    [1] => page:2
+)
+
+2014-01-14 01:44:25 Debug: App controller : End before filter  
+2014-01-14 01:44:25 Debug: Customer controller : Start of Index
+2014-01-14 01:44:25 Debug: Customer controller : Setting sesion conditions : Array
+(
+    [Customer.status] => 1
+)
+
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIATKR
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIATKR
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIATKR
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer ATKR
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAUGR
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAUGR
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAUGR
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AUGR
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAULA
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAULA
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAULA
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AULA
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAVAE
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAVAE
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAVAE
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AVAE
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAWKV
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAWKV
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAWKV
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AWKV
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAXAS
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAXAS
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAXAS
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AXAS
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAXBV
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAXBV
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAXBV
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AXBV
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:25 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:25 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:25 Debug: APP CONTROLLER : PAssed URIAXEV
+2014-01-14 01:44:25 Debug: APP CONTROLLER : CHECKING URIAXEV
+2014-01-14 01:44:25 Debug: APP CONTROLLER : VALID URIAXEV
+2014-01-14 01:44:25 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:25 Debug: Customer controller : counts function for customer AXEV
+2014-01-14 01:44:25 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIAXVV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIAXVV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIAXVV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer AXVV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIAXXV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIAXXV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIAXXV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer AXXV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIAZWV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIAZWV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIAZWV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer AZWV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBATV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBATV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBATV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BATV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBAVG
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBAVG
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBAVG
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BAVG
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBAXT
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBAXT
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBAXT
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BAXT
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBAZU
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBAZU
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBAZU
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BAZU
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBCIV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBCIV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBCIV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BCIV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBDEV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBDEV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBDEV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BDEV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBDOV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBDOV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBDOV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BDOV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBEAP
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBEAP
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBEAP
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BEAP
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBEHO
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBEHO
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBEHO
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BEHO
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBEWE
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBEWE
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBEWE
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BEWE
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBICV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBICV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBICV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BICV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBOLO
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBOLO
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBOLO
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BOLO
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBRIN
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBRIN
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBRIN
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BRIN
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:44:26 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:44:26 Debug: Customer controller : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:44:26 Debug: APP CONTROLLER : PAssed URIBSIV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : CHECKING URIBSIV
+2014-01-14 01:44:26 Debug: APP CONTROLLER : VALID URIBSIV
+2014-01-14 01:44:26 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:44:26 Debug: Customer controller : counts function for customer BSIV
+2014-01-14 01:44:26 Debug: Customer controller : counts function session not set
+2014-01-14 01:44:27 Debug: LEFTMENU ELEMENT : Phone Customer List
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: App controller : Index action
+2014-01-14 01:46:17 Debug: App controller : URL PARAMS Array
+(
+    [0] => voip
+    [1] => page:1
+    [2] => sort:type
+    [3] => direction:asc
+)
+
+2014-01-14 01:46:17 Debug: App controller : End before filter  
+2014-01-14 01:46:17 Debug: Customer controller : Start of Index
+2014-01-14 01:46:17 Debug: Customer controller : Setting sesion conditions : Array
+(
+    [Customer.status] => 1
+)
+
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URI1EEU
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URI1EEU
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URI1EEU
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer 1EEU
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIACLS
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIACLS
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIACLS
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ACLS
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIACPH
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIACPH
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIACPH
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ACPH
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIACVE
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIACVE
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIACVE
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ACVE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIADOV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIADOV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIADOV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ADOV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIADSV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIADSV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIADSV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ADSV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIAFIV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIAFIV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIAFIV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer AFIV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIALSV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIALSV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIALSV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ALSV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIALZV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIALZV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIALZV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ALZV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIAPIV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIAPIV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIAPIV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer APIV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIASGV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIASGV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIASGV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ASGV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIATEV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIATEV
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIATEV
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ATEV
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIATKR
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIATKR
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIATKR
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer ATKR
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:17 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:17 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:17 Debug: APP CONTROLLER : PAssed URIAVAE
+2014-01-14 01:46:17 Debug: APP CONTROLLER : CHECKING URIAVAE
+2014-01-14 01:46:17 Debug: APP CONTROLLER : VALID URIAVAE
+2014-01-14 01:46:17 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:17 Debug: Customer controller : counts function for customer AVAE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URIAXBV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URIAXBV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URIAXBV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer AXBV
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URIAXEV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URIAXEV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URIAXEV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer AXEV
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URIAXXV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URIAXXV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URIAXXV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer AXXV
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URIBCIV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URIBCIV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URIBCIV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer BCIV
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URIBICV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URIBICV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URIBICV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer BICV
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URIBSIV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URIBSIV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URIBSIV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer BSIV
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URICAVV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URICAVV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URICAVV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer CAVV
+2014-01-14 01:46:18 Debug: Customer controller : counts function session not set
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URICENV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URICENV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URICENV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer CENV
+2014-01-14 01:46:18 Debug: Customer controller : counts function session not set
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URICEVE
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URICEVE
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URICEVE
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer CEVE
+2014-01-14 01:46:18 Debug: Customer controller : counts function session not set
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URICGSV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URICGSV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URICGSV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer CGSV
+2014-01-14 01:46:18 Debug: Customer controller : counts function session not set
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/ -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:18 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:18 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:18 Debug: APP CONTROLLER : PAssed URICSUV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : CHECKING URICSUV
+2014-01-14 01:46:18 Debug: APP CONTROLLER : VALID URICSUV
+2014-01-14 01:46:18 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:18 Debug: Customer controller : counts function for customer CSUV
+2014-01-14 01:46:18 Debug: Customer controller : counts function session not set
+2014-01-14 01:46:18 Debug: LEFTMENU ELEMENT : Phone Customer List
+2014-01-14 01:46:55 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:55 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:55 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:55 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:55 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:55 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:55 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:55 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:46:55 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:55 Debug: App controller : Index action
+2014-01-14 01:46:55 Debug: App controller : URL PARAMS Array
+(
+    [0] => voip
+    [1] => page:1
+    [2] => sort:name
+    [3] => direction:asc
+)
+
+2014-01-14 01:46:55 Debug: App controller : End before filter  
+2014-01-14 01:46:55 Debug: Customer controller : Start of Index
+2014-01-14 01:46:55 Debug: Customer controller : Setting sesion conditions : Array
+(
+    [Customer.status] => 1
+)
+
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URI1EEU
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URI1EEU
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URI1EEU
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer 1EEU
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIACUT
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIACUT
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIACUT
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ACUT
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIACPH
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIACPH
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIACPH
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ACPH
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIACVE
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIACVE
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIACVE
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ACVE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIACLS
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIACLS
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIACLS
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ACLS
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIADOV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIADOV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIADOV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ADOV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIADPS
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIADPS
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIADPS
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ADPS
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIADSV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIADSV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIADSV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ADSV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIADVV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIADVV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIADVV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ADVV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAGSA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAGSA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAGSA
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer AGSA
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIALCH
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIALCH
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIALCH
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ALCH
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIALBG
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIALBG
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIALBG
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ALBG
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIALSV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIALSV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIALSV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ALSV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAPHA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAPHA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAPHA
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer APHA
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIATEV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIATEV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIATEV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ATEV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIALZV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIALZV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIALZV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ALZV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAMBT
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAMBT
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAMBT
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer AMBT
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIRETE
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIRETE
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIRETE
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer RETE
+2014-01-14 01:46:56 Debug: Customer controller : counts function session not set
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAMVN
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAMVN
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAMVN
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer AMVN
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAPIV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAPIV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAPIV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer APIV
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIARGE
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIARGE
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIARGE
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ARGE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIARVA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIARVA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIARVA
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ARVA
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIATKR
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIATKR
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIATKR
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer ATKR
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAULA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAULA
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAULA
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer AULA
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  REFERER -> http://localhost/voipphoneRE3/voip/page:1/sort:type/direction:asc -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : REFERER voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:46:56 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:46:56 Debug: Customer controller : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:46:56 Debug: APP CONTROLLER : PAssed URIAZWV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : CHECKING URIAZWV
+2014-01-14 01:46:56 Debug: APP CONTROLLER : VALID URIAZWV
+2014-01-14 01:46:56 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:46:56 Debug: Customer controller : counts function for customer AZWV
+2014-01-14 01:46:56 Debug: LEFTMENU ELEMENT : Phone Customer List
+2014-01-14 01:49:08 Debug: AUTHENTICATION :  HTTP_USER_AGENT => Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+2014-01-14 01:49:08 Debug: AUTHENTICATION :  PHP_SELF -> /voipphoneRE3/app/webroot/index.php -> voipphoneRE3
+2014-01-14 01:49:08 Debug: AUTHENTICATION : PHP_SELF voipphoneRE3 - APPLICATION PHONE
+2014-01-14 01:49:08 Debug: APP CONTROLLER : Start of before_filter
+2014-01-14 01:49:08 Debug: APP CONTROLLER : PAssed URI
+2014-01-14 01:49:08 Debug: App controller : Has selected customer session  Phone APP
+2014-01-14 01:49:08 Debug: App controller : Index action
+2014-01-14 01:49:08 Debug: App controller : URL PARAMS Array
+(
+    [0] => tags
+    [1] => 
+)
+
+2014-01-14 01:49:08 Debug: App controller : End before filter  
