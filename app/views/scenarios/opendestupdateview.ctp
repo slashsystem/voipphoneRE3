@@ -176,6 +176,8 @@ jQuery(function() {
               len = len.length;
               if(len >= 15)
               {
+                  $('#overlay-error2 .error .message').text("<?php __('max15Chars') ?>");
+                  $('#overlay-error2').removeClass('hide');
                   e.preventDefault();
               }
           }
