@@ -299,8 +299,31 @@ $(document).ready(function() {
       return false;
     } 
   });
+  function interceptKeys(evt) {
+    evt = evt||window.event // IE support
+    var c = evt.keyCode
+    var ctrlDown = evt.ctrlKey||evt.metaKey // Mac support
 
-  $("body").on('paste', '.numeric_check', function(e) { 
+    // Check for Alt+Gr (http://en.wikipedia.org/wiki/AltGr_key)
+    if (ctrlDown && evt.altKey) return true
+
+    // Check for ctrl+c, v and x
+    //else if (ctrlDown && c==67) return false // c
+    else if (ctrlDown && c==86) return false // v
+    //else if (ctrlDown && c==88) return false // x
+
+    // Otherwise allow
+    return true
+}
+  $("body").on('paste keyup', '.numeric_check', function(e) {
+      if(!interceptKeys(e))
+      {
+        var obj = $(this);
+        var str = $(obj).val();
+          if(!str.match(/^\d+$/)) {
+            (obj).val('')
+          }
+      }
     var obj = $(this);
     setTimeout(function () {      
       var str = $(obj).val();
