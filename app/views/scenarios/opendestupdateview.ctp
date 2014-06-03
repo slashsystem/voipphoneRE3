@@ -169,7 +169,16 @@ jQuery(function() {
       {
         $('#overlay-error2 .error .message').text("<?php __('digitsOnly') ?>");
         $('#overlay-error2').removeClass('hide');
+        return false;
       } else {
+          var len = ($(this).val()).length;
+            if(len == 0 && e.which !=48)
+            {
+                e.preventDefault();
+                $('#overlay-error2 .error .message').text("<?php __('leadingZeroOds') ?>");
+                return false;
+            }
+            else
           if(e.which!=8 && e.which!=13)
           {
               var len = $(this).val();
